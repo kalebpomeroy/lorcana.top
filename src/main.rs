@@ -20,8 +20,8 @@ async fn main() -> std::io::Result<()> {
         App::new()
             .wrap(cors)
             .route("/search", web::get().to(query))
-            .service(fs::Files::new("/data/images", "../data/images"))
-            .service(fs::Files::new("/", "../frontend/dist").index_file("index.html"))
+            .service(fs::Files::new("/data/images", "data/images"))
+            .service(fs::Files::new("/", "frontend/dist").index_file("index.html"))
     })
     .bind("127.0.0.1:8080")?
     .run()

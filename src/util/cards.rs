@@ -26,7 +26,7 @@ pub struct Card {
 
 lazy_static! {
     pub static ref CARDS: Vec<Card> = {
-        let file_path = "../data/cards.json";
+        let file_path = "data/cards.json";
         match fs::read_to_string(file_path) {
             Ok(data) => {
                 match serde_json::from_str::<Vec<Card>>(&data) {
