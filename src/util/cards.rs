@@ -20,13 +20,13 @@ pub struct Card {
     #[serde(rename = "Set_ID", default)] pub set_id: String,
     #[serde(rename = "Image", default)] pub image: String,
     #[serde(rename = "Card_Num", default)] pub card_num: u32,
-    #[serde(rename = "Set_Name", default)] set_name: String,
-    #[serde(rename = "Set_Num", default)] set_num: u32,
+    #[serde(rename = "Set_Name", default)] pub set_name: String,
+    #[serde(rename = "Set_Num", default)] pub set_num: u32,
 }
 
 lazy_static! {
     pub static ref CARDS: Vec<Card> = {
-        let file_path = "data/cards.json";
+        let file_path = "../data/cards.json";
         match fs::read_to_string(file_path) {
             Ok(data) => {
                 match serde_json::from_str::<Vec<Card>>(&data) {

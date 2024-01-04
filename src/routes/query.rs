@@ -10,7 +10,7 @@ pub struct QueryInfo { q: String }
 #[derive(Serialize)]
 pub struct QueryCardResponse {
     name: String,
-    image: String,
+    id: String
 }
 
 #[derive(Serialize)]
@@ -88,8 +88,8 @@ pub async fn query(info: web::Query<QueryInfo>) -> impl Responder{
     let mut card_response = Vec::new();
     for c in filtered_cards {
         card_response.push(QueryCardResponse {
-            name: c.name,
-            image: c.image,
+            id: format!("{}_{}", c.set_num, c.card_num),
+            name: c.name
         });
     }
     HttpResponse::Ok().json(QueryResponse { cards: card_response })
