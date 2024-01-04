@@ -18,9 +18,11 @@ pub struct QueryResponse {
     cards: Vec<QueryCardResponse>,
 }
 
-pub async fn query(info: web::Query<QueryInfo>) -> impl Responder{       
-     let mut filters: Vec<Box<dyn Fn(&Card) -> bool>> = Vec::new();
-     for (filter, value) in get_query(&info.q){
+pub async fn query(info: web::Query<QueryInfo>) -> impl Responder{  
+    let mut sort = "name".to_string();
+    let mut dir = "a".to_string();
+    let mut filters: Vec<Box<dyn Fn(&Card) -> bool>> = Vec::new();
+    for (filter, value) in get_query(&info.q){
         let value_clone = value.clone();
         match filter.as_str() {
             "n" => { 
@@ -77,14 +79,37 @@ pub async fn query(info: web::Query<QueryInfo>) -> impl Responder{
             "e" => { 
                 filters.push(Box::new(move |card: &Card| card.set_id.to_lowercase() == value)); 
             }
+            "sort" => { 
+                sort = value_clone;
+            }
+            "d" => { 
+                dir = value_clone;
+            }
             _ => {}
         }
      }
 
-    let filtered_cards: Vec<Card> = CARDS.clone().into_iter()
+    let mut filtered_cards: Vec<Card> = CARDS.clone().into_iter()
         .filter(|card| filters.iter().all(|f| f(card)))
         .collect();
 
+    filtered_cards.sort_by(|a, b| {
+        let (a, b) = if dir == "a" { (a, b) } else { (b, a) };
+
+        match sort.as_str() {
+            "c" => { a.cost.cmp(&b.cost) }
+            "w" => { a.will.cmp(&b.will) }
+            "l" => { a.lore.cmp(&b.lore) }
+            "s" => { a.str.cmp(&b.str) }
+            "i" => { a.color.cmp(&b.color) }
+            "t" => { a.card_type.cmp(&b.card_type) }
+            "r" => { a.rarity.cmp(&b.rarity) }
+            "e" => { a.set_num.cmp(&b.set_num) }
+            "a" => { a.artist.cmp(&b.artist) }
+            _ => { a.name.cmp(&b.name) }
+        }
+    });
+    
     let mut card_response = Vec::new();
     for c in filtered_cards {
         card_response.push(QueryCardResponse {
@@ -92,6 +117,8 @@ pub async fn query(info: web::Query<QueryInfo>) -> impl Responder{
             name: c.name
         });
     }
+
+
     HttpResponse::Ok().json(QueryResponse { cards: card_response })
     
 }
