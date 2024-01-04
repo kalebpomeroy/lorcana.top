@@ -24,7 +24,7 @@ export default {
         async searchCards(q) {
             q = q || "";
             try {
-                const response = await axios.get(`http://localhost:8080/search`, { params: { q: q } });
+                const response = await axios.get(`/search`, { params: { q: q } });
                 this.cards = response.data.cards;
                 
                 const url = new URL(window.location.href);
