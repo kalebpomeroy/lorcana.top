@@ -1,7 +1,8 @@
 <template>
     <div class="results-grid">
         <span v-for="card in cards" class="card" :key="card.id">
-            <img :src="`/data/images/${card.id}.png`" />
+            <img loading="lazy" :src="`http://drrkqgqijb8dh.cloudfront.net/${card.id}.png`" />
+            {{ card.name }}
         </span>
     </div>
 </template>

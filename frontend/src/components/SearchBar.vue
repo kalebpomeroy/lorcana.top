@@ -26,12 +26,6 @@ export default {
             showHelperText: false,
         };
     },
-    mounted() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const query = urlParams.get('q');
-        this.q = query || '';
-        this.searchCards();
-    },
     methods: {
         searchCards() {
             this.$emit('search', this.q);

@@ -5,9 +5,13 @@ use actix_web::{web, HttpResponse, Responder};
 use serde::{Deserialize, Serialize};
 
 #[derive(Deserialize)]
-pub struct QueryInfo { q: String }
+pub struct QueryInfo { 
+    q: Option<String>,
+    limit: Option<String>,
+    offset: Option<String>
+}
 
-#[derive(Serialize)]
+#[derive(Serialize, Clone)]
 pub struct QueryCardResponse {
     name: String,
     id: String
@@ -16,13 +20,17 @@ pub struct QueryCardResponse {
 #[derive(Serialize)]
 pub struct QueryResponse {
     cards: Vec<QueryCardResponse>,
+    total: usize,
+    offset: usize
 }
 
 pub async fn query(info: web::Query<QueryInfo>) -> impl Responder{  
     let mut sort = "name".to_string();
     let mut dir = "a".to_string();
     let mut filters: Vec<Box<dyn Fn(&Card) -> bool>> = Vec::new();
-    for (filter, value) in get_query(&info.q){
+    let q = &info.q.clone().unwrap_or("".to_string());
+
+    for (filter, value) in get_query(q){
         let value_clone = value.clone();
         match filter.as_str() {
             "n" => { 
@@ -118,7 +126,25 @@ pub async fn query(info: web::Query<QueryInfo>) -> impl Responder{
         });
     }
 
+    let default_limit = 10; // Set your default limit
+    let default_offset = 0; // Set your default offset
 
-    HttpResponse::Ok().json(QueryResponse { cards: card_response })
+    // Parse limit
+    let limit_str = info.limit.clone().unwrap_or(default_limit.to_string());
+    let limit = limit_str.parse::<usize>().unwrap_or(default_limit);
+
+    // Parse offset
+    let offset_str = info.offset.clone().unwrap_or(default_offset.to_string());
+    let offset = offset_str.parse::<usize>().unwrap_or(default_offset);
+
+    // Ensure offset and limit are within the bounds of the vector
+    let end = std::cmp::min(offset + limit, card_response.len());
+    let start = std::cmp::min(offset, card_response.len());
+
+    HttpResponse::Ok().json(QueryResponse { 
+        cards: card_response[start..end].to_vec(),
+        total: card_response.len(),
+        offset: offset,
+    })
     
 }

@@ -10,7 +10,9 @@
   "dependencies": {
     "axios": "^1.6.4",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "vue": "^3.2.13",
+    "vue-lazyload": "^3.0.0",
+    "vue3-lazy": "^1.0.0-alpha.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
