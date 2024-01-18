@@ -1,1 +1,1 @@
-web: target/release/lorcana
+web: npm run start

@@ -14,7 +14,12 @@
     "card_num": 195,
     "body_text": "(A character with cost 5 or more can {e} to sing this song for free.)\n\nEach player discards their hand and draws 7 cards.",
     "set_id": "TFC",
-    "id": "1_195"
+    "id": "1_195",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Oleg Yurkov",
@@ -34,7 +39,9 @@
     "willpower": 2,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_103"
+    "id": "1_103",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Randy Bishop",
@@ -54,7 +61,9 @@
     "willpower": 1,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_171"
+    "id": "1_171",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Nicholas Kole",
@@ -75,7 +84,9 @@
     "willpower": 5,
     "strength": 5,
     "set_id": "TFC",
-    "id": "1_104"
+    "id": "1_104",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Lauren Walsh",
@@ -97,7 +108,8 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_69"
+    "id": "1_69",
+    "card_type": "Character"
   },
   {
     "artist": "Peter Brockhammer",
@@ -118,7 +130,8 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_105"
+    "id": "1_105",
+    "card_type": "Character"
   },
   {
     "artist": "Alice Pisoni",
@@ -140,7 +153,9 @@
     "willpower": 4,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_137"
+    "id": "2_137",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Valerio Buonfantino",
@@ -161,7 +176,8 @@
     "willpower": 4,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_35"
+    "id": "1_35",
+    "card_type": "Character"
   },
   {
     "artist": "Kendall Hale",
@@ -181,7 +197,9 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_36"
+    "id": "1_36",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Matthew Robert Davies",
@@ -202,7 +220,8 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_1"
+    "id": "1_1",
+    "card_type": "Character"
   },
   {
     "artist": "Alice Pisoni",
@@ -223,7 +242,9 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_2"
+    "id": "1_2",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Hedvig Haggman-Sund",
@@ -244,7 +265,8 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_137"
+    "id": "1_137",
+    "card_type": "Character"
   },
   {
     "artist": "Mario Oscar Gabriele",
@@ -266,7 +288,9 @@
     "willpower": 3,
     "strength": 4,
     "set_id": "RFB",
-    "id": "2_69"
+    "id": "2_69",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Jake Parker",
@@ -289,7 +313,8 @@
     "willpower": 3,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_35"
+    "id": "2_35",
+    "card_type": "Character"
   },
   {
     "artist": "Rosalia Radosti",
@@ -310,7 +335,8 @@
     "willpower": 5,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_138"
+    "id": "1_138",
+    "card_type": "Character"
   },
   {
     "artist": "Nicholas Kole",
@@ -332,7 +358,8 @@
     "willpower": 5,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_139"
+    "id": "1_139",
+    "card_type": "Character"
   },
   {
     "artist": "Samanta Erdini",
@@ -352,7 +379,9 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_140"
+    "id": "1_140",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "R. la Barbera / L. Giammichele",
@@ -374,7 +403,9 @@
     "willpower": 3,
     "strength": 4,
     "set_id": "RFB",
-    "id": "2_103"
+    "id": "2_103",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Kendall Hale",
@@ -397,7 +428,8 @@
     "willpower": 5,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_1"
+    "id": "2_1",
+    "card_type": "Character"
   },
   {
     "artist": "Bill Robinson",
@@ -421,7 +453,8 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_138"
+    "id": "2_138",
+    "card_type": "Character"
   },
   {
     "artist": "Jake Parker",
@@ -445,7 +478,8 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_139"
+    "id": "2_139",
+    "card_type": "Character"
   },
   {
     "artist": "Roger P?rez",
@@ -467,7 +501,9 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_140"
+    "id": "2_140",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "R. La Barbera / L. Giammichele",
@@ -483,7 +519,13 @@
     "card_num": 25,
     "body_text": "(A character with cost 2 or more can {e} to sing this song for free.) \n\nLook at the top 4 cards of your deck. You may reveal a character card and put it into your hand. Put the rest on the bottom of your deck in any order.",
     "set_id": "TFC",
-    "id": "1_25"
+    "id": "1_25",
+    "flavor_text": "",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Jared Nickerl",
@@ -500,7 +542,12 @@
     "card_num": 128,
     "body_text": "(A character with cost 7 or more can {e} to sing this song for free.)\n\nBanish all Characters.",
     "set_id": "TFC",
-    "id": "1_128"
+    "id": "1_128",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Alice Pisoni",
@@ -523,7 +570,8 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_171"
+    "id": "2_171",
+    "card_type": "Character"
   },
   {
     "artist": "Cookie",
@@ -544,7 +592,8 @@
     "willpower": 4,
     "strength": 4,
     "set_id": "TFC",
-    "id": "1_172"
+    "id": "1_172",
+    "card_type": "Character"
   },
   {
     "artist": "Eri Welli",
@@ -566,7 +615,9 @@
     "willpower": 5,
     "strength": 4,
     "set_id": "RFB",
-    "id": "2_70"
+    "id": "2_70",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Matthew Robert Davies",
@@ -589,7 +640,8 @@
     "willpower": 8,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_172"
+    "id": "2_172",
+    "card_type": "Character"
   },
   {
     "artist": "Evana Kisa",
@@ -613,7 +665,8 @@
     "willpower": 5,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_173"
+    "id": "2_173",
+    "card_type": "Character"
   },
   {
     "artist": "Jeff Murchie",
@@ -635,7 +688,8 @@
     "willpower": 4,
     "strength": 4,
     "set_id": "TFC",
-    "id": "1_70"
+    "id": "1_70",
+    "card_type": "Character"
   },
   {
     "artist": "Samanta Erdini",
@@ -652,7 +706,12 @@
     "card_num": 201,
     "body_text": "Show Me - {e}, 3 {i} - If you have no cards in your hand, draw a card.",
     "set_id": "TFC",
-    "id": "1_201"
+    "id": "1_201",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Kendall Hale",
@@ -669,7 +728,12 @@
     "card_num": 62,
     "body_text": "Return a character or item with cost 2 or less to their player's hand.",
     "set_id": "TFC",
-    "id": "1_62"
+    "id": "1_62",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Jenna Gray",
@@ -692,7 +756,8 @@
     "willpower": 4,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_71"
+    "id": "2_71",
+    "card_type": "Character"
   },
   {
     "artist": "Aisha Durmagambetova",
@@ -716,7 +781,8 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_72"
+    "id": "2_72",
+    "card_type": "Character"
   },
   {
     "artist": "Gabriel Romero / Pia Smith",
@@ -737,7 +803,8 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_141"
+    "id": "1_141",
+    "card_type": "Character"
   },
   {
     "artist": "Alice Pisoni",
@@ -758,7 +825,8 @@
     "willpower": 4,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_142"
+    "id": "1_142",
+    "card_type": "Character"
   },
   {
     "artist": "Grace Tran",
@@ -781,7 +849,8 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_174"
+    "id": "2_174",
+    "card_type": "Character"
   },
   {
     "artist": "LadyShalirin",
@@ -800,7 +869,12 @@
     "body_text": "(A character with cost 3 or more can {e} to sing this song for free.)\nReturn chosen character of your to your hand to play another character with the same cost or less for free.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_96"
+    "id": "2_96",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Kasia Brzezinska",
@@ -819,7 +893,12 @@
     "body_text": "For All Eternity: {e}, {e} one of you character - Exert chosen character.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_65"
+    "id": "2_65",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Kiersten Hale",
@@ -843,7 +922,8 @@
     "willpower": 1,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_36"
+    "id": "2_36",
+    "card_type": "Character"
   },
   {
     "artist": "Alice Pisoni",
@@ -865,7 +945,9 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_104"
+    "id": "2_104",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Bill Robinson",
@@ -884,7 +966,12 @@
     "body_text": "Return chosen character of yours to your hand to return another chosen character to their player's hand.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_97"
+    "id": "2_97",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Grace Tran",
@@ -901,7 +988,12 @@
     "card_num": 196,
     "body_text": "Banish chosen item.",
     "set_id": "TFC",
-    "id": "1_196"
+    "id": "1_196",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Alex Accorsi",
@@ -925,7 +1017,8 @@
     "willpower": 1,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_73"
+    "id": "2_73",
+    "card_type": "Character"
   },
   {
     "artist": "Brian Weisz",
@@ -945,7 +1038,9 @@
     "willpower": 5,
     "strength": 6,
     "set_id": "TFC",
-    "id": "1_106"
+    "id": "1_106",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Adrianne Gumaya",
@@ -966,7 +1061,8 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_173"
+    "id": "1_173",
+    "card_type": "Character"
   },
   {
     "artist": "Marcell Berg",
@@ -988,7 +1084,8 @@
     "willpower": 2,
     "strength": 1,
     "set_id": "TFC",
-    "id": "1_174"
+    "id": "1_174",
+    "card_type": "Character"
   },
   {
     "artist": "Cam Kendall",
@@ -1010,7 +1107,8 @@
     "willpower": 5,
     "strength": 5,
     "set_id": "TFC",
-    "id": "1_107"
+    "id": "1_107",
+    "card_type": "Character"
   },
   {
     "artist": "Elliot Bocxtaele",
@@ -1031,7 +1129,9 @@
     "willpower": 5,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_175"
+    "id": "1_175",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Bill Robinson",
@@ -1053,7 +1153,9 @@
     "willpower": 5,
     "strength": 5,
     "set_id": "RFB",
-    "id": "2_105"
+    "id": "2_105",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Cory Godbey",
@@ -1075,7 +1177,9 @@
     "willpower": 3,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_141"
+    "id": "2_141",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Oleg Yurkov",
@@ -1095,7 +1199,9 @@
     "willpower": 6,
     "strength": 5,
     "set_id": "TFC",
-    "id": "1_176"
+    "id": "1_176",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Hedvig H?ggman-Sund",
@@ -1112,7 +1218,12 @@
     "card_num": 198,
     "body_text": "Chosen character gains Challenger +2 and Resist +2 this turn. (They get +2 {s} while challenging. Damage dealt to them is reduced by 2.)",
     "set_id": "RFB",
-    "id": "2_198"
+    "id": "2_198",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Alex Accorsi",
@@ -1134,7 +1245,9 @@
     "willpower": 2,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_74"
+    "id": "2_74",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Jeff Murchie",
@@ -1157,7 +1270,9 @@
     "willpower": 6,
     "strength": 5,
     "set_id": "RFB",
-    "id": "2_75"
+    "id": "2_75",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Caner Soylu",
@@ -1178,7 +1293,8 @@
     "willpower": 3,
     "strength": 0,
     "set_id": "TFC",
-    "id": "1_71"
+    "id": "1_71",
+    "card_type": "Character"
   },
   {
     "artist": "Adam Bunch",
@@ -1201,7 +1317,8 @@
     "willpower": 4,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_175"
+    "id": "2_175",
+    "card_type": "Character"
   },
   {
     "artist": "Pirel",
@@ -1223,7 +1340,8 @@
     "willpower": 6,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_143"
+    "id": "1_143",
+    "card_type": "Character"
   },
   {
     "artist": "Aubrey Archer",
@@ -1245,7 +1363,9 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_37"
+    "id": "2_37",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Eri Welli",
@@ -1268,7 +1388,8 @@
     "willpower": 6,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_2"
+    "id": "2_2",
+    "card_type": "Character"
   },
   {
     "artist": "Casey Robin",
@@ -1292,7 +1413,8 @@
     "willpower": 2,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_3"
+    "id": "2_3",
+    "card_type": "Character"
   },
   {
     "artist": "Javier Salas",
@@ -1313,7 +1435,9 @@
     "willpower": 5,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_3"
+    "id": "1_3",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Grace Tran",
@@ -1336,7 +1460,8 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_176"
+    "id": "2_176",
+    "card_type": "Character"
   },
   {
     "artist": "Grace Tran",
@@ -1359,7 +1484,9 @@
     "willpower": 5,
     "strength": 5,
     "set_id": "RFB",
-    "id": "2_177"
+    "id": "2_177",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Jake Parker",
@@ -1381,7 +1508,9 @@
     "willpower": 9,
     "strength": 5,
     "set_id": "RFB",
-    "id": "2_4"
+    "id": "2_4",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Milica Celikovic",
@@ -1398,7 +1527,12 @@
     "card_num": 166,
     "body_text": "Consider The Coconut - Whenever you play a character, you may remove up to 2 damage from chosen character.",
     "set_id": "TFC",
-    "id": "1_166"
+    "id": "1_166",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Isaiah Mesq",
@@ -1420,7 +1554,9 @@
     "willpower": 5,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_142"
+    "id": "2_142",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Leonardo Giamichele",
@@ -1441,7 +1577,8 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_143"
+    "id": "2_143",
+    "card_type": "Character"
   },
   {
     "artist": "Amber Kommavongsa",
@@ -1457,7 +1594,13 @@
     "card_num": 26,
     "body_text": "Chosen character gets -2 {s} this turn.",
     "set_id": "TFC",
-    "id": "1_26"
+    "id": "1_26",
+    "flavor_text": "",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Matt Chapman",
@@ -1475,7 +1618,13 @@
     "body_text": "Hurtling Hedgehog: Banish this item - Chosen character gains Rush this turn. (They can challenge the turn they're played.)",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_66"
+    "id": "2_66",
+    "flavor_text": "",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Aisha Durmagambetova",
@@ -1498,7 +1647,8 @@
     "willpower": 2,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_144"
+    "id": "2_144",
+    "card_type": "Character"
   },
   {
     "artist": "Nicholas Kole",
@@ -1519,7 +1669,8 @@
     "willpower": 3,
     "strength": 1,
     "set_id": "TFC",
-    "id": "1_72"
+    "id": "1_72",
+    "card_type": "Character"
   },
   {
     "artist": "GusGadget / Leonardo Giammichele",
@@ -1543,7 +1694,8 @@
     "willpower": 3,
     "strength": 4,
     "set_id": "RFB",
-    "id": "2_145"
+    "id": "2_145",
+    "card_type": "Character"
   },
   {
     "artist": "Ellie Horie",
@@ -1560,7 +1712,12 @@
     "card_num": 129,
     "body_text": "Chosen character gains Rush this turn. (They can challenge the turn they're played.)",
     "set_id": "TFC",
-    "id": "1_129"
+    "id": "1_129",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Lissette Carrera",
@@ -1582,7 +1739,9 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_76"
+    "id": "2_76",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Pao Yong",
@@ -1599,7 +1758,12 @@
     "card_num": 161,
     "body_text": "Look at the top 2 cards of your deck. Put one into your hand and the other on the bottom of the deck.",
     "set_id": "TFC",
-    "id": "1_161"
+    "id": "1_161",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Eri Welli",
@@ -1616,7 +1780,12 @@
     "card_num": 32,
     "body_text": "Straighten Hair: {e} - Remove up to 1 damage from chosen character.",
     "set_id": "TFC",
-    "id": "1_32"
+    "id": "1_32",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Peter Brockhammer",
@@ -1635,7 +1804,12 @@
     "body_text": "You Know What Happens: {e}, 2 {i} - Draw cards equal to the damage on chosen character of yours, then banish them.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_134"
+    "id": "2_134",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Ellie Horie",
@@ -1652,7 +1826,12 @@
     "card_num": 94,
     "body_text": "Return an action card from your discard to your hand.",
     "set_id": "TFC",
-    "id": "1_94"
+    "id": "1_94",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Kendall Hale",
@@ -1675,7 +1854,8 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_5"
+    "id": "2_5",
+    "card_type": "Character"
   },
   {
     "artist": "Kenneth Anderson",
@@ -1695,7 +1875,9 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_108"
+    "id": "1_108",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Nicholas Kole",
@@ -1717,7 +1899,9 @@
     "willpower": 5,
     "strength": 6,
     "set_id": "RFB",
-    "id": "2_178"
+    "id": "2_178",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Dav Augereau",
@@ -1738,7 +1922,9 @@
     "willpower": 5,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_177"
+    "id": "1_177",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Carmine Pucci / Leonardo Giammichele",
@@ -1761,7 +1947,9 @@
     "willpower": 5,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_106"
+    "id": "2_106",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Ron Baird",
@@ -1784,7 +1972,9 @@
     "willpower": 5,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_77"
+    "id": "2_77",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Leonardo Giammichele",
@@ -1807,7 +1997,8 @@
     "willpower": 5,
     "strength": 0,
     "set_id": "RFB",
-    "id": "2_78"
+    "id": "2_78",
+    "card_type": "Character"
   },
   {
     "artist": "Cam Kendell",
@@ -1829,7 +2020,8 @@
     "willpower": 3,
     "strength": 4,
     "set_id": "TFC",
-    "id": "1_144"
+    "id": "1_144",
+    "card_type": "Character"
   },
   {
     "artist": "Kendall Hale",
@@ -1852,7 +2044,8 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_6"
+    "id": "2_6",
+    "card_type": "Character"
   },
   {
     "artist": "Isaiah Mesq",
@@ -1873,7 +2066,9 @@
     "willpower": 5,
     "strength": 4,
     "set_id": "TFC",
-    "id": "1_37"
+    "id": "1_37",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Grace Tran",
@@ -1895,7 +2090,8 @@
     "willpower": 4,
     "strength": 0,
     "set_id": "TFC",
-    "id": "1_38"
+    "id": "1_38",
+    "card_type": "Character"
   },
   {
     "artist": "Ron Baird",
@@ -1918,7 +2114,9 @@
     "willpower": 4,
     "strength": 4,
     "set_id": "RFB",
-    "id": "2_79"
+    "id": "2_79",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Cam Kendell",
@@ -1938,7 +2136,9 @@
     "willpower": 4,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_39"
+    "id": "1_39",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Leonardo Giammichele",
@@ -1961,7 +2161,9 @@
     "willpower": 2,
     "strength": 4,
     "set_id": "RFB",
-    "id": "2_38"
+    "id": "2_38",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Koni",
@@ -1978,7 +2180,12 @@
     "card_num": 101,
     "body_text": "The Cards Will Tell - {e} - You pay 1 {i} less for the next action you play this turn.",
     "set_id": "TFC",
-    "id": "1_101"
+    "id": "1_101",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Luis Huerta",
@@ -1995,7 +2202,12 @@
     "card_num": 130,
     "body_text": "Banish chosen character",
     "set_id": "TFC",
-    "id": "1_130"
+    "id": "1_130",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Andrew Trabbold",
@@ -2015,7 +2227,12 @@
     "body_text": "Bring Back To Life: {e}, 3 {i} - Return a character card with Support from your discard to your hand.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_33"
+    "id": "2_33",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "R. La Barbera / L. Giammichele",
@@ -2035,7 +2252,9 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_73"
+    "id": "1_73",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Rose la Barbera / Leonardo Giammichele",
@@ -2059,7 +2278,8 @@
     "willpower": 2,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_146"
+    "id": "2_146",
+    "card_type": "Character"
   },
   {
     "artist": "Isaiah Mesq",
@@ -2081,7 +2301,9 @@
     "willpower": 5,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_179"
+    "id": "2_179",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Cristian Romero",
@@ -2105,7 +2327,8 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_39"
+    "id": "2_39",
+    "card_type": "Character"
   },
   {
     "artist": "Alice Pisoni / Whitney Pollett",
@@ -2126,7 +2349,8 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_109"
+    "id": "1_109",
+    "card_type": "Character"
   },
   {
     "artist": "Duyen Nguyen / Aubrey Archer",
@@ -2146,7 +2370,9 @@
     "willpower": 4,
     "strength": 4,
     "set_id": "TFC",
-    "id": "1_40"
+    "id": "1_40",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Nicholas Kole",
@@ -2167,7 +2393,8 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_41"
+    "id": "1_41",
+    "card_type": "Character"
   },
   {
     "artist": "Matthew Robert Davies",
@@ -2189,7 +2416,8 @@
     "willpower": 6,
     "strength": 4,
     "set_id": "TFC",
-    "id": "1_42"
+    "id": "1_42",
+    "card_type": "Character"
   },
   {
     "artist": "Isaiah Mesq",
@@ -2212,7 +2440,8 @@
     "willpower": 1,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_80"
+    "id": "2_80",
+    "card_type": "Character"
   },
   {
     "artist": "Lisette Carrera",
@@ -2234,7 +2463,9 @@
     "willpower": 9,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_7"
+    "id": "2_7",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Ron Baird",
@@ -2251,7 +2482,12 @@
     "card_num": 167,
     "body_text": "See The Future - {e} - Chosen character gets +1 {l} this turn.",
     "set_id": "TFC",
-    "id": "1_167"
+    "id": "1_167",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Hedvig H?ggman-Sund",
@@ -2273,7 +2509,9 @@
     "willpower": 7,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_40"
+    "id": "2_40",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Filipe Laurentino",
@@ -2296,7 +2534,9 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_41"
+    "id": "2_41",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Matt Chapman",
@@ -2319,7 +2559,8 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_42"
+    "id": "2_42",
+    "card_type": "Character"
   },
   {
     "artist": "Lissette Carrera",
@@ -2338,7 +2579,12 @@
     "body_text": "Each player choose one of their characters and puts them into their inkwell facedown and excreted.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_162"
+    "id": "2_162",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Jenna Gray",
@@ -2355,7 +2601,12 @@
     "card_num": 131,
     "body_text": "Ready chosen character. They can't quest for the rest of this turn.",
     "set_id": "TFC",
-    "id": "1_131"
+    "id": "1_131",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Antonia Flechsig",
@@ -2373,7 +2624,13 @@
     "body_text": "Careful Aim: {e}, 2 {i} - Chosen character get -2 {s} this turn.\nStay Back!: {e}, Banish this item - Banish chosen Dragon character.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_166"
+    "id": "2_166",
+    "flavor_text": "",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Michael \"Cookie\" Niewiadomy",
@@ -2397,7 +2654,8 @@
     "willpower": 1,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_107"
+    "id": "2_107",
+    "card_type": "Character"
   },
   {
     "artist": "Giulia Riva",
@@ -2421,7 +2679,8 @@
     "willpower": 2,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_108"
+    "id": "2_108",
+    "card_type": "Character"
   },
   {
     "artist": "Matt Chapman",
@@ -2438,7 +2697,12 @@
     "card_num": 197,
     "body_text": "Deal 2 damage to chosen character.",
     "set_id": "TFC",
-    "id": "1_197"
+    "id": "1_197",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Tanisha Cherislin",
@@ -2455,7 +2719,12 @@
     "card_num": 168,
     "body_text": "Go Ahead And Sing - {e} - Put any card from your hand into your inkwell facedown.",
     "set_id": "TFC",
-    "id": "1_168"
+    "id": "1_168",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Luis Huerta",
@@ -2477,7 +2746,8 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_43"
+    "id": "1_43",
+    "card_type": "Character"
   },
   {
     "artist": "Brian Weiyz",
@@ -2497,7 +2767,9 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_145"
+    "id": "1_145",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Leonardo Giammichele",
@@ -2518,7 +2790,8 @@
     "willpower": 2,
     "strength": 1,
     "set_id": "TFC",
-    "id": "1_74"
+    "id": "1_74",
+    "card_type": "Character"
   },
   {
     "artist": "Ron Baird",
@@ -2540,7 +2813,9 @@
     "willpower": 3,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_81"
+    "id": "2_81",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "E. Meleranci / L. Giammichele",
@@ -2563,7 +2838,9 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_82"
+    "id": "2_82",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Jochem van Gool",
@@ -2581,7 +2858,13 @@
     "body_text": "(A character with cost 3 or more can {e} to sing this song for free)\nYour characters gain Resist +2 until the start of your next turn. (Damage dealt to them is reduced by 2.)",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_163"
+    "id": "2_163",
+    "flavor_text": "",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Cristian Romero",
@@ -2598,7 +2881,12 @@
     "card_num": 63,
     "body_text": "Exert chosen opposing character.",
     "set_id": "TFC",
-    "id": "1_63"
+    "id": "1_63",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Amber Kommavongsa",
@@ -2615,7 +2903,12 @@
     "card_num": 64,
     "body_text": "(A character with cost 3 or more can {e} to sing this song for free.)\n\nDraw 2 Cards",
     "set_id": "TFC",
-    "id": "1_64"
+    "id": "1_64",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Kamil Murzyn",
@@ -2632,7 +2925,12 @@
     "card_num": 202,
     "body_text": "Clang! - Banish this item - Chosen character can't challenge during their next turn.",
     "set_id": "TFC",
-    "id": "1_202"
+    "id": "1_202",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Luis Huerta",
@@ -2653,7 +2951,8 @@
     "willpower": 6,
     "strength": 6,
     "set_id": "TFC",
-    "id": "1_178"
+    "id": "1_178",
+    "card_type": "Character"
   },
   {
     "artist": "Matthew Robert Davies",
@@ -2675,7 +2974,8 @@
     "willpower": 2,
     "strength": 4,
     "set_id": "TFC",
-    "id": "1_110"
+    "id": "1_110",
+    "card_type": "Character"
   },
   {
     "artist": "Jochem van Gool",
@@ -2699,7 +2999,8 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_8"
+    "id": "2_8",
+    "card_type": "Character"
   },
   {
     "artist": "Matthew Robert Davies",
@@ -2722,7 +3023,9 @@
     "willpower": 4,
     "strength": 4,
     "set_id": "RFB",
-    "id": "2_147"
+    "id": "2_147",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Valerio Buonfantino",
@@ -2745,7 +3048,8 @@
     "willpower": 3,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_83"
+    "id": "2_83",
+    "card_type": "Character"
   },
   {
     "artist": "Giulia Riva",
@@ -2767,7 +3071,8 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_75"
+    "id": "1_75",
+    "card_type": "Character"
   },
   {
     "artist": "Javier Salas",
@@ -2788,7 +3093,9 @@
     "willpower": 5,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_76"
+    "id": "1_76",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Matt Chapman",
@@ -2808,7 +3115,9 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_77"
+    "id": "1_77",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Gaku Kumatori",
@@ -2826,7 +3135,13 @@
     "body_text": "(A character with cost 2 or more can {e} to sing this song for free.)\nReady chosen damaged character of yours. They can't quest for the rest of this turn. Draw a card.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_129"
+    "id": "2_129",
+    "flavor_text": "",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Kenneth Anderson",
@@ -2847,7 +3162,8 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_111"
+    "id": "1_111",
+    "card_type": "Character"
   },
   {
     "artist": "Marco Giorgianni",
@@ -2867,7 +3183,9 @@
     "willpower": 10,
     "strength": 10,
     "set_id": "RFB",
-    "id": "2_180"
+    "id": "2_180",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Jochem Van Gool",
@@ -2889,7 +3207,8 @@
     "willpower": 6,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_4"
+    "id": "1_4",
+    "card_type": "Character"
   },
   {
     "artist": "Cam Kendall",
@@ -2909,7 +3228,9 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_179"
+    "id": "1_179",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Peter Brockhammer",
@@ -2926,7 +3247,12 @@
     "card_num": 198,
     "body_text": "(A character with cost 5 or more can {e} to sing this song for free.)\n\nDeal 2 damage to each opposing character.",
     "set_id": "TFC",
-    "id": "1_198"
+    "id": "1_198",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Fliipe Laurentino",
@@ -2947,7 +3273,8 @@
     "willpower": 1,
     "strength": 1,
     "set_id": "TFC",
-    "id": "1_146"
+    "id": "1_146",
+    "card_type": "Character"
   },
   {
     "artist": "Javi Salas",
@@ -2970,7 +3297,8 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_9"
+    "id": "2_9",
+    "card_type": "Character"
   },
   {
     "artist": "Juan Diego Leon",
@@ -2993,7 +3321,8 @@
     "willpower": 6,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_148"
+    "id": "2_148",
+    "card_type": "Character"
   },
   {
     "artist": "Mariana Moreno",
@@ -3011,7 +3340,13 @@
     "body_text": "(A character with cost 3 or more can {e} to sing this song for free.)\nPlay a character with cost 4 or less for free. They gain Rush. At the end of the turn, banish them. (They can challenge the turn they're played)",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_62"
+    "id": "2_62",
+    "flavor_text": "",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Kendall Hale",
@@ -3034,7 +3369,8 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_10"
+    "id": "2_10",
+    "card_type": "Character"
   },
   {
     "artist": "Tanisha Cherislin",
@@ -3053,7 +3389,12 @@
     "body_text": "The Best I've Ever Tasted: {e} - Remove 1 damage each from up to 2 chosen characters.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_167"
+    "id": "2_167",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Matthew Robert Davies",
@@ -3074,7 +3415,8 @@
     "willpower": 6,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_147"
+    "id": "1_147",
+    "card_type": "Character"
   },
   {
     "artist": "Alex Accorsi",
@@ -3096,7 +3438,8 @@
     "willpower": 7,
     "strength": 6,
     "set_id": "TFC",
-    "id": "1_5"
+    "id": "1_5",
+    "card_type": "Character"
   },
   {
     "artist": "Randy Bishop",
@@ -3117,7 +3460,8 @@
     "willpower": 2,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_6"
+    "id": "1_6",
+    "card_type": "Character"
   },
   {
     "artist": "Juan Diego Leon",
@@ -3134,7 +3478,12 @@
     "card_num": 27,
     "body_text": "(A character with cost 4 or more can {e} to sing this song for free.)\n\nRemove up to 3 damage from each of your characters.",
     "set_id": "TFC",
-    "id": "1_27"
+    "id": "1_27",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Massimiliano Narciso",
@@ -3154,7 +3503,9 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_78"
+    "id": "1_78",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Kendall Hale",
@@ -3175,7 +3526,8 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_180"
+    "id": "1_180",
+    "card_type": "Character"
   },
   {
     "artist": "Kendall Hale",
@@ -3199,7 +3551,8 @@
     "willpower": 5,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_11"
+    "id": "2_11",
+    "card_type": "Character"
   },
   {
     "artist": "Koni",
@@ -3216,7 +3569,12 @@
     "card_num": 132,
     "body_text": "Chosen Character gets +2 {s} this turn.",
     "set_id": "TFC",
-    "id": "1_132"
+    "id": "1_132",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Phillip Kruse",
@@ -3233,7 +3591,12 @@
     "card_num": 28,
     "body_text": "Remove up to 2 damage from chosen character.",
     "set_id": "TFC",
-    "id": "1_28"
+    "id": "1_28",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Janna Gray",
@@ -3255,7 +3618,8 @@
     "willpower": 2,
     "strength": 1,
     "set_id": "TFC",
-    "id": "1_7"
+    "id": "1_7",
+    "card_type": "Character"
   },
   {
     "artist": "Ellie Horie",
@@ -3278,7 +3642,8 @@
     "willpower": 1,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_43"
+    "id": "2_43",
+    "card_type": "Character"
   },
   {
     "artist": "Grace Tran",
@@ -3300,7 +3665,8 @@
     "willpower": 3,
     "strength": 6,
     "set_id": "RFB",
-    "id": "2_181"
+    "id": "2_181",
+    "card_type": "Character"
   },
   {
     "artist": "Eva Widermann",
@@ -3320,7 +3686,9 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_182"
+    "id": "2_182",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Marcel Berg",
@@ -3342,7 +3710,8 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_181"
+    "id": "1_181",
+    "card_type": "Character"
   },
   {
     "artist": "Leonardo Giammichele",
@@ -3365,7 +3734,8 @@
     "willpower": 6,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_149"
+    "id": "2_149",
+    "card_type": "Character"
   },
   {
     "artist": "Connie Kang / Jackie Droujko",
@@ -3384,7 +3754,12 @@
     "body_text": "Remove up to 4 damage from chosen character.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_28"
+    "id": "2_28",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Sandra Rios",
@@ -3407,7 +3782,8 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_109"
+    "id": "2_109",
+    "card_type": "Character"
   },
   {
     "artist": "Isaiah Mesq",
@@ -3427,7 +3803,9 @@
     "willpower": 3,
     "strength": 4,
     "set_id": "TFC",
-    "id": "1_79"
+    "id": "1_79",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Lauren Levering",
@@ -3446,7 +3824,12 @@
     "body_text": "Each Opponent chooses and discards a card. Draw a card.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_98"
+    "id": "2_98",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Rob Di Salvo",
@@ -3465,7 +3848,12 @@
     "body_text": "Chosen exerted character can't ready at the start of their next turn",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_63"
+    "id": "2_63",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Brian Weisz",
@@ -3486,7 +3874,9 @@
     "willpower": 4,
     "strength": 1,
     "set_id": "TFC",
-    "id": "1_80"
+    "id": "1_80",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Kenneth Anderson",
@@ -3503,7 +3893,12 @@
     "card_num": 162,
     "body_text": "Return an item card from your discard to your hand.",
     "set_id": "TFC",
-    "id": "1_162"
+    "id": "1_162",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Man? Kandalyan",
@@ -3522,7 +3917,12 @@
     "body_text": "Chosen Character gets +1 {s} this turn. Draw a card.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_99"
+    "id": "2_99",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Cam Kendall",
@@ -3543,7 +3943,9 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_183"
+    "id": "2_183",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Marcel Berg",
@@ -3564,7 +3966,8 @@
     "willpower": 5,
     "strength": 0,
     "set_id": "TFC",
-    "id": "1_44"
+    "id": "1_44",
+    "card_type": "Character"
   },
   {
     "artist": "Rob Di Salvo",
@@ -3585,7 +3988,8 @@
     "willpower": 2,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_184"
+    "id": "2_184",
+    "card_type": "Character"
   },
   {
     "artist": "Jake Parker",
@@ -3607,7 +4011,8 @@
     "willpower": 5,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_45"
+    "id": "1_45",
+    "card_type": "Character"
   },
   {
     "artist": "Kevin Hong",
@@ -3629,7 +4034,9 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_150"
+    "id": "2_150",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "R. La Barbera/L. Giammichele",
@@ -3649,7 +4056,9 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_148"
+    "id": "1_148",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "R. la Barbera / L. Giammichele",
@@ -3672,7 +4081,8 @@
     "willpower": 2,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_151"
+    "id": "2_151",
+    "card_type": "Character"
   },
   {
     "artist": "Filipe Laurentino",
@@ -3693,7 +4103,9 @@
     "willpower": 5,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_149"
+    "id": "1_149",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Jochem Van Gool",
@@ -3714,7 +4126,8 @@
     "willpower": 4,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_81"
+    "id": "1_81",
+    "card_type": "Character"
   },
   {
     "artist": "Brian Weisz",
@@ -3736,7 +4149,8 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_46"
+    "id": "1_46",
+    "card_type": "Character"
   },
   {
     "artist": "Isaiah Mesq",
@@ -3760,7 +4174,8 @@
     "willpower": 2,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_44"
+    "id": "2_44",
+    "card_type": "Character"
   },
   {
     "artist": "Duyen Ngyen / Jared Nickerl",
@@ -3782,7 +4197,8 @@
     "willpower": 5,
     "strength": 5,
     "set_id": "TFC",
-    "id": "1_82"
+    "id": "1_82",
+    "card_type": "Character"
   },
   {
     "artist": "Arianna Rea",
@@ -3805,7 +4221,8 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_152"
+    "id": "2_152",
+    "card_type": "Character"
   },
   {
     "artist": "Milica Celikovic",
@@ -3825,7 +4242,9 @@
     "willpower": 5,
     "strength": 4,
     "set_id": "TFC",
-    "id": "1_83"
+    "id": "1_83",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Leonardo Giammichele",
@@ -3842,7 +4261,12 @@
     "card_num": 29,
     "body_text": "You may play a character with cost 5 or less for free.",
     "set_id": "TFC",
-    "id": "1_29"
+    "id": "1_29",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Hadjie Joos",
@@ -3865,7 +4289,8 @@
     "willpower": 8,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_12"
+    "id": "2_12",
+    "card_type": "Character"
   },
   {
     "artist": "Ron Baird",
@@ -3885,7 +4310,9 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_182"
+    "id": "1_182",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Brian Weisz",
@@ -3906,7 +4333,9 @@
     "willpower": 5,
     "strength": 4,
     "set_id": "RFB",
-    "id": "2_185"
+    "id": "2_185",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Jake Parker",
@@ -3926,7 +4355,9 @@
     "willpower": 6,
     "strength": 6,
     "set_id": "TFC",
-    "id": "1_183"
+    "id": "1_183",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Grace Tran",
@@ -3948,7 +4379,8 @@
     "willpower": 4,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_84"
+    "id": "1_84",
+    "card_type": "Character"
   },
   {
     "artist": "Michaela Martin",
@@ -3971,7 +4403,8 @@
     "willpower": 2,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_45"
+    "id": "2_45",
+    "card_type": "Character"
   },
   {
     "artist": "Arianna Rea",
@@ -3995,7 +4428,8 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_110"
+    "id": "2_110",
+    "card_type": "Character"
   },
   {
     "artist": "Samantha Erdini",
@@ -4018,7 +4452,8 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_111"
+    "id": "2_111",
+    "card_type": "Character"
   },
   {
     "artist": "Leonardo Giammichele",
@@ -4039,7 +4474,8 @@
     "willpower": 5,
     "strength": 1,
     "set_id": "TFC",
-    "id": "1_85"
+    "id": "1_85",
+    "card_type": "Character"
   },
   {
     "artist": "Eri Welli",
@@ -4056,7 +4492,12 @@
     "card_num": 33,
     "body_text": "Birthday Lights - {e} - You play 1 {i} less for the next character you play this turn.",
     "set_id": "TFC",
-    "id": "1_33"
+    "id": "1_33",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Jared Nickerl",
@@ -4073,7 +4514,12 @@
     "card_num": 202,
     "body_text": "Arm Yourself: 1 {i}, Banish this item - Chosen character gains Challenger +3 this turn. (They get +3 {s} while challenging.)",
     "set_id": "RFB",
-    "id": "2_202"
+    "id": "2_202",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Aisha Durmagambetova",
@@ -4092,7 +4538,12 @@
     "body_text": "Banish chosen character who was challenged this turn.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_29"
+    "id": "2_29",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Juan Diego Leon",
@@ -4111,7 +4562,12 @@
     "body_text": "Banish chosen item of yours to deal 5 damage to chosen character.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_164"
+    "id": "2_164",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Luis Huerta",
@@ -4132,7 +4588,8 @@
     "willpower": 4,
     "strength": 0,
     "set_id": "RFB",
-    "id": "2_186"
+    "id": "2_186",
+    "card_type": "Character"
   },
   {
     "artist": "Andrey Chumak",
@@ -4153,7 +4610,8 @@
     "willpower": 2,
     "strength": 1,
     "set_id": "TFC",
-    "id": "1_8"
+    "id": "1_8",
+    "card_type": "Character"
   },
   {
     "artist": "Gaku Kumatori",
@@ -4174,7 +4632,8 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_112"
+    "id": "1_112",
+    "card_type": "Character"
   },
   {
     "artist": "Kuya Jaypi",
@@ -4193,7 +4652,12 @@
     "body_text": "(A character with cost 2 or more can {e} to sing this song for free.)\nChosen character gains Challenger +3 this turn. (They get +3 {s} while challenging.)",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_64"
+    "id": "2_64",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Milica Celikovic",
@@ -4210,7 +4674,12 @@
     "card_num": 163,
     "body_text": "(A character with cost 5 or more can {e} to sing this song for free.)\n\nPut chosen character into their player's inkwell facedown and exerted.",
     "set_id": "TFC",
-    "id": "1_163"
+    "id": "1_163",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "R. la Barbera / L. Giammichele",
@@ -4227,7 +4696,12 @@
     "card_num": 199,
     "body_text": "(A character with cost 3 or more can {e} to sing this song for free.)\\nDeal 2 damaged to chosen character. Draw a card.",
     "set_id": "RFB",
-    "id": "2_199"
+    "id": "2_199",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Cristian Remero",
@@ -4248,7 +4722,8 @@
     "willpower": 6,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_187"
+    "id": "2_187",
+    "card_type": "Character"
   },
   {
     "artist": "Jared Nickerl",
@@ -4268,7 +4743,9 @@
     "willpower": 2,
     "strength": 4,
     "set_id": "TFC",
-    "id": "1_184"
+    "id": "1_184",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Dave Beauchene",
@@ -4288,7 +4765,9 @@
     "willpower": 1,
     "strength": 1,
     "set_id": "TFC",
-    "id": "1_9"
+    "id": "1_9",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Cristian Romero",
@@ -4310,7 +4789,9 @@
     "willpower": 6,
     "strength": 6,
     "set_id": "RFB",
-    "id": "2_84"
+    "id": "2_84",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Isabella Ceravolo",
@@ -4333,7 +4814,8 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_85"
+    "id": "2_85",
+    "card_type": "Character"
   },
   {
     "artist": "Giulia Riva",
@@ -4355,7 +4837,9 @@
     "willpower": 7,
     "strength": 7,
     "set_id": "RFB",
-    "id": "2_112"
+    "id": "2_112",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Rosa la Barvera",
@@ -4376,7 +4860,8 @@
     "willpower": 4,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_86"
+    "id": "1_86",
+    "card_type": "Character"
   },
   {
     "artist": "Alice Pisoni",
@@ -4399,7 +4884,9 @@
     "willpower": 3,
     "strength": 4,
     "set_id": "RFB",
-    "id": "2_46"
+    "id": "2_46",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Ally Zermeno",
@@ -4423,7 +4910,8 @@
     "willpower": 7,
     "strength": 5,
     "set_id": "RFB",
-    "id": "2_47"
+    "id": "2_47",
+    "card_type": "Character"
   },
   {
     "artist": "Man? Kandalyan / Pix Smith",
@@ -4446,7 +4934,9 @@
     "willpower": 5,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_48"
+    "id": "2_48",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Brian Weisz",
@@ -4469,7 +4959,8 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_49"
+    "id": "2_49",
+    "card_type": "Character"
   },
   {
     "artist": "Dav Augereau / Giulia Riva",
@@ -4490,7 +4981,8 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_47"
+    "id": "1_47",
+    "card_type": "Character"
   },
   {
     "artist": "Cristian Romero",
@@ -4511,7 +5003,8 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_188"
+    "id": "2_188",
+    "card_type": "Character"
   },
   {
     "artist": "Cory Godbey",
@@ -4528,7 +5021,12 @@
     "card_num": 169,
     "body_text": "Healing Pollen - Banish this item - Remove up to 3 damage from chosen character.",
     "set_id": "TFC",
-    "id": "1_169"
+    "id": "1_169",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Andrew Trabbold",
@@ -4545,7 +5043,12 @@
     "card_num": 66,
     "body_text": "Speak! - {e}, 4 {i} - Draw a card.",
     "set_id": "TFC",
-    "id": "1_66"
+    "id": "1_66",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Grace Tran",
@@ -4565,7 +5068,9 @@
     "willpower": 1,
     "strength": 1,
     "set_id": "TFC",
-    "id": "1_48"
+    "id": "1_48",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Luis Huerta",
@@ -4586,7 +5091,8 @@
     "willpower": 5,
     "strength": 7,
     "set_id": "TFC",
-    "id": "1_113"
+    "id": "1_113",
+    "card_type": "Character"
   },
   {
     "artist": "Nicholas Kole",
@@ -4606,7 +5112,9 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_150"
+    "id": "1_150",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Valerio Buonfantino",
@@ -4627,7 +5135,8 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_49"
+    "id": "1_49",
+    "card_type": "Character"
   },
   {
     "artist": "Gaku Kumatori",
@@ -4647,7 +5156,9 @@
     "willpower": 6,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_151"
+    "id": "1_151",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Kendall Hale / Anh Dang",
@@ -4668,7 +5179,8 @@
     "willpower": 5,
     "strength": 5,
     "set_id": "TFC",
-    "id": "1_50"
+    "id": "1_50",
+    "card_type": "Character"
   },
   {
     "artist": "Isaiah Mesq",
@@ -4688,7 +5200,9 @@
     "willpower": 8,
     "strength": 8,
     "set_id": "TFC",
-    "id": "1_185"
+    "id": "1_185",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Pixel / Marco Giogianni",
@@ -4710,7 +5224,8 @@
     "willpower": 5,
     "strength": 6,
     "set_id": "TFC",
-    "id": "1_114"
+    "id": "1_114",
+    "card_type": "Character"
   },
   {
     "artist": "Alex Accorsi",
@@ -4730,7 +5245,9 @@
     "willpower": 7,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_152"
+    "id": "1_152",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Antonia Flechsig",
@@ -4749,7 +5266,12 @@
     "body_text": "Looking For This: Whenever you play another item, you may pay 1 {i} to draw a card.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_168"
+    "id": "2_168",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Brian Weisz",
@@ -4770,7 +5292,9 @@
     "willpower": 5,
     "strength": 4,
     "set_id": "TFC",
-    "id": "1_10"
+    "id": "1_10",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Kendall Hale",
@@ -4791,7 +5315,8 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_11"
+    "id": "1_11",
+    "card_type": "Character"
   },
   {
     "artist": "Aubrey Archer",
@@ -4812,7 +5337,8 @@
     "willpower": 1,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_87"
+    "id": "1_87",
+    "card_type": "Character"
   },
   {
     "artist": "Valentina Graziuso",
@@ -4835,7 +5361,8 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_50"
+    "id": "2_50",
+    "card_type": "Character"
   },
   {
     "artist": "S. Shaw / L. Giammichele",
@@ -4858,7 +5385,8 @@
     "willpower": 3,
     "strength": 4,
     "set_id": "RFB",
-    "id": "2_51"
+    "id": "2_51",
+    "card_type": "Character"
   },
   {
     "artist": "Michaela Martin",
@@ -4881,7 +5409,8 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_52"
+    "id": "2_52",
+    "card_type": "Character"
   },
   {
     "artist": "Dave Beauchene",
@@ -4903,7 +5432,8 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_153"
+    "id": "1_153",
+    "card_type": "Character"
   },
   {
     "artist": "Matthew Robert Davies",
@@ -4926,7 +5456,8 @@
     "willpower": 5,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_53"
+    "id": "2_53",
+    "card_type": "Character"
   },
   {
     "artist": "Brian Weisz",
@@ -4949,7 +5480,8 @@
     "willpower": 1,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_54"
+    "id": "2_54",
+    "card_type": "Character"
   },
   {
     "artist": "Alex Accorsi / Kendall Hale",
@@ -4971,7 +5503,8 @@
     "willpower": 5,
     "strength": 6,
     "set_id": "TFC",
-    "id": "1_88"
+    "id": "1_88",
+    "card_type": "Character"
   },
   {
     "artist": "Nicolas Kole",
@@ -4993,7 +5526,8 @@
     "willpower": 5,
     "strength": 5,
     "set_id": "TFC",
-    "id": "1_115"
+    "id": "1_115",
+    "card_type": "Character"
   },
   {
     "artist": "Jared Nickerl",
@@ -5014,7 +5548,8 @@
     "willpower": 3,
     "strength": 1,
     "set_id": "TFC",
-    "id": "1_154"
+    "id": "1_154",
+    "card_type": "Character"
   },
   {
     "artist": "Veronica Di Lorenzo / Livio Cacciatore",
@@ -5037,7 +5572,8 @@
     "willpower": 6,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_13"
+    "id": "2_13",
+    "card_type": "Character"
   },
   {
     "artist": "Jochem Van Gool",
@@ -5058,7 +5594,9 @@
     "willpower": 7,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_186"
+    "id": "1_186",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Juan Diego Leon",
@@ -5078,7 +5616,9 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_89"
+    "id": "1_89",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Dave Beauchene",
@@ -5098,7 +5638,9 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_12"
+    "id": "1_12",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Nicholas Kole",
@@ -5119,7 +5661,8 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_51"
+    "id": "1_51",
+    "card_type": "Character"
   },
   {
     "artist": "Kenneth Anderson",
@@ -5139,7 +5682,9 @@
     "willpower": 3,
     "strength": 1,
     "set_id": "TFC",
-    "id": "1_116"
+    "id": "1_116",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Kendall Hale",
@@ -5159,7 +5704,9 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_13"
+    "id": "1_13",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Mario Oscar Gabriele",
@@ -5183,7 +5730,8 @@
     "willpower": 3,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_113"
+    "id": "2_113",
+    "card_type": "Character"
   },
   {
     "artist": "Adam Fenton",
@@ -5206,7 +5754,9 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_114"
+    "id": "2_114",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Ellie Horie",
@@ -5228,7 +5778,9 @@
     "willpower": 2,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_115"
+    "id": "2_115",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Tanisha Cherislin",
@@ -5249,7 +5801,8 @@
     "willpower": 6,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_117"
+    "id": "1_117",
+    "card_type": "Character"
   },
   {
     "artist": "Nicholas Kole",
@@ -5270,7 +5823,8 @@
     "willpower": 6,
     "strength": 1,
     "set_id": "TFC",
-    "id": "1_14"
+    "id": "1_14",
+    "card_type": "Character"
   },
   {
     "artist": "Javier Salas",
@@ -5291,7 +5845,8 @@
     "willpower": 6,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_90"
+    "id": "1_90",
+    "card_type": "Character"
   },
   {
     "artist": "Koni",
@@ -5314,7 +5869,8 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_116"
+    "id": "2_116",
+    "card_type": "Character"
   },
   {
     "artist": "R. La Barbera / L. Giammichele",
@@ -5331,7 +5887,12 @@
     "card_num": 95,
     "body_text": "(A character with cost 3 or more can {e} to sing this song for free.)\n\nReturn chosen character to their player's hand.",
     "set_id": "TFC",
-    "id": "1_95"
+    "id": "1_95",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Gaku Kumatori",
@@ -5348,7 +5909,12 @@
     "card_num": 203,
     "body_text": "Protection - {e}: Chosen character gains Resist +1 until the start of your next turn. (Damage dealt to them is reduced by 1.)",
     "set_id": "RFB",
-    "id": "2_203"
+    "id": "2_203",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Kamil Murzyn / Eri Welli",
@@ -5368,7 +5934,9 @@
     "willpower": 5,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_15"
+    "id": "1_15",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Michaela Martin",
@@ -5391,7 +5959,8 @@
     "willpower": 5,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_153"
+    "id": "2_153",
+    "card_type": "Character"
   },
   {
     "artist": "Stefano Zanchi",
@@ -5413,7 +5982,9 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_14"
+    "id": "2_14",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Luis Huerta",
@@ -5433,7 +6004,9 @@
     "willpower": 6,
     "strength": 4,
     "set_id": "TFC",
-    "id": "1_155"
+    "id": "1_155",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Amber Kommavongsa",
@@ -5457,7 +6030,8 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_15"
+    "id": "2_15",
+    "card_type": "Character"
   },
   {
     "artist": "Mel Milton",
@@ -5477,7 +6051,9 @@
     "willpower": 5,
     "strength": 4,
     "set_id": "TFC",
-    "id": "1_118"
+    "id": "1_118",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Lisette Carrera",
@@ -5500,7 +6076,9 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_16"
+    "id": "2_16",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Michael \"Cookie\" Niewiadomy",
@@ -5524,7 +6102,8 @@
     "willpower": 3,
     "strength": 4,
     "set_id": "RFB",
-    "id": "2_117"
+    "id": "2_117",
+    "card_type": "Character"
   },
   {
     "artist": "Dav Augereau",
@@ -5541,7 +6120,12 @@
     "card_num": 203,
     "body_text": "All For One And One For All - Whenever one of your characters with Bodyguard is banished, you may draw a card.",
     "set_id": "TFC",
-    "id": "1_203"
+    "id": "1_203",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Jenna Gray",
@@ -5562,7 +6146,9 @@
     "willpower": 4,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_189"
+    "id": "2_189",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Hedvig H?ggman-Sund",
@@ -5585,7 +6171,8 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_118"
+    "id": "2_118",
+    "card_type": "Character"
   },
   {
     "artist": "Filipe Laurentino",
@@ -5608,7 +6195,8 @@
     "willpower": 3,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_17"
+    "id": "2_17",
+    "card_type": "Character"
   },
   {
     "artist": "Brian Weisz",
@@ -5631,7 +6219,8 @@
     "willpower": 4,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_154"
+    "id": "2_154",
+    "card_type": "Character"
   },
   {
     "artist": "Kristina Chouri",
@@ -5653,7 +6242,9 @@
     "willpower": 2,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_155"
+    "id": "2_155",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Man? Kandalyan / Jochem van Gool",
@@ -5672,7 +6263,12 @@
     "body_text": "Each Opponent reveals their hand. Draw a card.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_165"
+    "id": "2_165",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Giulia Riva",
@@ -5692,7 +6288,9 @@
     "willpower": 3,
     "strength": 1,
     "set_id": "TFC",
-    "id": "1_52"
+    "id": "1_52",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Bill Robinson",
@@ -5709,7 +6307,12 @@
     "card_num": 164,
     "body_text": "(A character with cost 2 or more can {e} to sing this song for free.)\n\nPut the top card of your deck into your inkwell facedown and exerted.",
     "set_id": "TFC",
-    "id": "1_164"
+    "id": "1_164",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Agnes Christianson",
@@ -5731,7 +6334,9 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_156"
+    "id": "2_156",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Koni",
@@ -5751,7 +6356,9 @@
     "willpower": 8,
     "strength": 4,
     "set_id": "RFB",
-    "id": "2_190"
+    "id": "2_190",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Don Aguillo",
@@ -5770,7 +6377,12 @@
     "body_text": "Gain 1 lore for each damaged character opponents have in play.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_100"
+    "id": "2_100",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Kristina Chouri / Mariana Moreno",
@@ -5793,7 +6405,8 @@
     "willpower": 4,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_86"
+    "id": "2_86",
+    "card_type": "Character"
   },
   {
     "artist": "Matt Chapman",
@@ -5811,7 +6424,13 @@
     "body_text": "{A character with cost X or more can {e} to sing this song for free.)\n\nUp to 2 chosen characters get -1 {s} this turn. Draw a card.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_30"
+    "id": "2_30",
+    "flavor_text": "",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Kristina Chouri / Mariana Moreno",
@@ -5834,7 +6453,8 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_87"
+    "id": "2_87",
+    "card_type": "Character"
   },
   {
     "artist": "Samanta Erdini",
@@ -5851,7 +6471,12 @@
     "card_num": 30,
     "body_text": "(A character with cost 3 or more can {e} to sing this song for free.)\n\nReturn a character card from your discard to your hand.",
     "set_id": "TFC",
-    "id": "1_30"
+    "id": "1_30",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Brian Weisz",
@@ -5873,7 +6498,8 @@
     "willpower": 1,
     "strength": 1,
     "set_id": "TFC",
-    "id": "1_53"
+    "id": "1_53",
+    "card_type": "Character"
   },
   {
     "artist": "Isaiah Mesq",
@@ -5891,7 +6517,13 @@
     "body_text": "Jumbo Pop: When you play this item, you may draw a card.\nThat's Redwood: Banish this item - Remove up to 2 damage from chosen character.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_169"
+    "id": "2_169",
+    "flavor_text": "",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Hedvig Haggman-Sund",
@@ -5914,7 +6546,9 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_88"
+    "id": "2_88",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Anh Dang",
@@ -5936,7 +6570,8 @@
     "willpower": 2,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_119"
+    "id": "1_119",
+    "card_type": "Character"
   },
   {
     "artist": "Koni",
@@ -5958,7 +6593,8 @@
     "willpower": 2,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_91"
+    "id": "1_91",
+    "card_type": "Character"
   },
   {
     "artist": "Leonardo Giammichele",
@@ -5977,7 +6613,12 @@
     "body_text": "You characters with Evasive get +1 {s}.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_135"
+    "id": "2_135",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Giulia Riva",
@@ -6000,7 +6641,9 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_55"
+    "id": "2_55",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Leonardo Giammichele",
@@ -6022,7 +6665,8 @@
     "willpower": 1,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_156"
+    "id": "1_156",
+    "card_type": "Character"
   },
   {
     "artist": "Pablo Hidalgo / Jeff Merghart",
@@ -6039,7 +6683,12 @@
     "card_num": 200,
     "body_text": "Chosen character can challenge ready characters this turn.",
     "set_id": "RFB",
-    "id": "2_200"
+    "id": "2_200",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Kiersten Hale",
@@ -6061,7 +6710,9 @@
     "willpower": 4,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_18"
+    "id": "2_18",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "isaiah Mesq",
@@ -6085,7 +6736,8 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_57"
+    "id": "2_57",
+    "card_type": "Character"
   },
   {
     "artist": "Kapik",
@@ -6107,7 +6759,9 @@
     "willpower": 1,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_56"
+    "id": "2_56",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Juan Diego Leon",
@@ -6130,7 +6784,8 @@
     "willpower": 1,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_58"
+    "id": "2_58",
+    "card_type": "Character"
   },
   {
     "artist": "Oleg Yurkov",
@@ -6147,7 +6802,12 @@
     "card_num": 204,
     "body_text": "Quick Shot - {e}, 2 {i}: Deal 1 damage to chosen character.",
     "set_id": "TFC",
-    "id": "1_204"
+    "id": "1_204",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Andrew Trabbold",
@@ -6164,7 +6824,12 @@
     "card_num": 134,
     "body_text": "Take A Bite . . . - 1 {i}, Banish this item - Exert chosen character. If a princess character is chosen, banish her instead.",
     "set_id": "TFC",
-    "id": "1_134"
+    "id": "1_134",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Brian Weisz",
@@ -6186,7 +6851,8 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_120"
+    "id": "1_120",
+    "card_type": "Character"
   },
   {
     "artist": "Andrew Trabbold",
@@ -6205,7 +6871,12 @@
     "body_text": "To Wonderland: Banish this item - Return chosen character of yours to your hand.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_67"
+    "id": "2_67",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Vicky Xie / Mariana Moreno",
@@ -6227,7 +6898,9 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_157"
+    "id": "2_157",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Cristian Romero",
@@ -6249,7 +6922,8 @@
     "willpower": 3,
     "strength": 1,
     "set_id": "TFC",
-    "id": "1_187"
+    "id": "1_187",
+    "card_type": "Character"
   },
   {
     "artist": "Koni",
@@ -6273,7 +6947,8 @@
     "willpower": 2,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_89"
+    "id": "2_89",
+    "card_type": "Character"
   },
   {
     "artist": "Gakue Kumatori",
@@ -6293,7 +6968,9 @@
     "willpower": 3,
     "strength": 4,
     "set_id": "RFB",
-    "id": "2_191"
+    "id": "2_191",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Phillip Kruse",
@@ -6314,7 +6991,8 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_16"
+    "id": "1_16",
+    "card_type": "Character"
   },
   {
     "artist": "James Gray",
@@ -6334,7 +7012,9 @@
     "willpower": 5,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_17"
+    "id": "1_17",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Jenna Gray",
@@ -6355,7 +7035,8 @@
     "willpower": 6,
     "strength": 5,
     "set_id": "RFB",
-    "id": "2_192"
+    "id": "2_192",
+    "card_type": "Character"
   },
   {
     "artist": "Valerio Buonfantino",
@@ -6379,7 +7060,8 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_119"
+    "id": "2_119",
+    "card_type": "Character"
   },
   {
     "artist": "Matthew Robert Davies",
@@ -6402,7 +7084,8 @@
     "willpower": 2,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_90"
+    "id": "2_90",
+    "card_type": "Character"
   },
   {
     "artist": "Isaiah Mesq",
@@ -6425,7 +7108,9 @@
     "willpower": 3,
     "strength": 4,
     "set_id": "RFB",
-    "id": "2_120"
+    "id": "2_120",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Giulia Riva",
@@ -6447,7 +7132,9 @@
     "willpower": 6,
     "strength": 4,
     "set_id": "RFB",
-    "id": "2_158"
+    "id": "2_158",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Giulia Riva",
@@ -6469,7 +7156,8 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_54"
+    "id": "1_54",
+    "card_type": "Character"
   },
   {
     "artist": "Amber Kommavongsa",
@@ -6486,7 +7174,12 @@
     "card_num": 199,
     "body_text": "Draw 2 cards, then choose and discard 2 cards.",
     "set_id": "TFC",
-    "id": "1_199"
+    "id": "1_199",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Aubrey Archer",
@@ -6509,7 +7202,9 @@
     "willpower": 6,
     "strength": 0,
     "set_id": "RFB",
-    "id": "2_19"
+    "id": "2_19",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Jochem Van Gool",
@@ -6529,7 +7224,9 @@
     "willpower": 5,
     "strength": 1,
     "set_id": "TFC",
-    "id": "1_18"
+    "id": "1_18",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Clio Wolfensberger",
@@ -6550,7 +7247,8 @@
     "willpower": 4,
     "strength": 5,
     "set_id": "TFC",
-    "id": "1_121"
+    "id": "1_121",
+    "card_type": "Character"
   },
   {
     "artist": "Aubrey Archer",
@@ -6573,7 +7271,8 @@
     "willpower": 4,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_20"
+    "id": "2_20",
+    "card_type": "Character"
   },
   {
     "artist": "Michaela Martin",
@@ -6597,7 +7296,8 @@
     "willpower": 1,
     "strength": 4,
     "set_id": "RFB",
-    "id": "2_91"
+    "id": "2_91",
+    "card_type": "Character"
   },
   {
     "artist": "Valerio Vuonfantino",
@@ -6620,7 +7320,8 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_121"
+    "id": "2_121",
+    "card_type": "Character"
   },
   {
     "artist": "Leonardo Giammichele",
@@ -6639,7 +7340,12 @@
     "body_text": "Snap! Boom! Twang!: Banish this item - Each opponent loses 2 lore.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_102"
+    "id": "2_102",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Filipe Laurentino",
@@ -6663,7 +7369,8 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_92"
+    "id": "2_92",
+    "card_type": "Character"
   },
   {
     "artist": "Amber Kommavongsa",
@@ -6686,7 +7393,8 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_122"
+    "id": "2_122",
+    "card_type": "Character"
   },
   {
     "artist": "Amber Kommavongsa",
@@ -6709,7 +7417,9 @@
     "willpower": 3,
     "strength": 5,
     "set_id": "RFB",
-    "id": "2_123"
+    "id": "2_123",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Matthew Robert Davies",
@@ -6731,7 +7441,9 @@
     "willpower": 3,
     "strength": 5,
     "set_id": "RFB",
-    "id": "2_124"
+    "id": "2_124",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Kevin Hong",
@@ -6748,7 +7460,12 @@
     "card_num": 65,
     "body_text": "(A character with cost 1 or more can {e} to sing this song for free.)\n\nLook at the top 3 cards of your deck. Put them back on the top of your deck in any order.",
     "set_id": "TFC",
-    "id": "1_65"
+    "id": "1_65",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Brian Weisz",
@@ -6767,7 +7484,12 @@
     "body_text": "Banish chosen damaged character.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_101"
+    "id": "2_101",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Noukah",
@@ -6788,7 +7510,8 @@
     "willpower": 3,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_193"
+    "id": "2_193",
+    "card_type": "Character"
   },
   {
     "artist": "John Loren",
@@ -6809,7 +7532,8 @@
     "willpower": 4,
     "strength": 4,
     "set_id": "TFC",
-    "id": "1_157"
+    "id": "1_157",
+    "card_type": "Character"
   },
   {
     "artist": "Peter Brockhammer",
@@ -6828,7 +7552,12 @@
     "body_text": "Flight Cabin: Your exerted characters gain Ward. (Opponents can't choose them except to challenge.)",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_170"
+    "id": "2_170",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Amber Kommavongsa",
@@ -6848,7 +7577,9 @@
     "willpower": 3,
     "strength": 5,
     "set_id": "TFC",
-    "id": "1_122"
+    "id": "1_122",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Bill Robinson",
@@ -6869,7 +7600,8 @@
     "willpower": 4,
     "strength": 5,
     "set_id": "TFC",
-    "id": "1_158"
+    "id": "1_158",
+    "card_type": "Character"
   },
   {
     "artist": "Jenna Gray",
@@ -6891,7 +7623,8 @@
     "willpower": 6,
     "strength": 6,
     "set_id": "TFC",
-    "id": "1_123"
+    "id": "1_123",
+    "card_type": "Character"
   },
   {
     "artist": "Nicholas Kole",
@@ -6913,7 +7646,10 @@
     "willpower": 5,
     "strength": 6,
     "set_id": "RFB",
-    "id": "2_125"
+    "id": "2_125",
+    "flavor_text": "",
+    "classifications": "",
+    "card_type": "Character"
   },
   {
     "artist": "Grace Tran",
@@ -6929,7 +7665,13 @@
     "card_num": 170,
     "body_text": "Command - {e}- Chosen character gains Support this turn. (Whenever they quest, you may add their {s} to another chosen character's {s} this turn.)",
     "set_id": "TFC",
-    "id": "1_170"
+    "id": "1_170",
+    "flavor_text": "",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Isaiah Mesq",
@@ -6951,7 +7693,8 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_19"
+    "id": "1_19",
+    "card_type": "Character"
   },
   {
     "artist": "Cary Godhey",
@@ -6971,7 +7714,9 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_124"
+    "id": "1_124",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "M. Robert Davies / L. Giammichele",
@@ -6994,7 +7739,8 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_126"
+    "id": "2_126",
+    "card_type": "Character"
   },
   {
     "artist": "Eri Welli",
@@ -7011,7 +7757,12 @@
     "card_num": 135,
     "body_text": "Fireproof - {e}, 3 {i} - Ready chosen character. They can't quest for the rest of this turn.",
     "set_id": "TFC",
-    "id": "1_135"
+    "id": "1_135",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Nicholas Kole",
@@ -7032,7 +7783,8 @@
     "willpower": 2,
     "strength": 1,
     "set_id": "TFC",
-    "id": "1_188"
+    "id": "1_188",
+    "card_type": "Character"
   },
   {
     "artist": "Filipe Laurentino",
@@ -7054,7 +7806,8 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_20"
+    "id": "1_20",
+    "card_type": "Character"
   },
   {
     "artist": "Nicholas Kole",
@@ -7076,7 +7829,8 @@
     "willpower": 6,
     "strength": 4,
     "set_id": "TFC",
-    "id": "1_189"
+    "id": "1_189",
+    "card_type": "Character"
   },
   {
     "artist": "Cookie",
@@ -7097,7 +7851,8 @@
     "willpower": 5,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_190"
+    "id": "1_190",
+    "card_type": "Character"
   },
   {
     "artist": "Grace Tran",
@@ -7120,7 +7875,8 @@
     "willpower": 4,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_159"
+    "id": "2_159",
+    "card_type": "Character"
   },
   {
     "artist": "Kendall Hale",
@@ -7143,7 +7899,8 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_21"
+    "id": "2_21",
+    "card_type": "Character"
   },
   {
     "artist": "Antonia Flechsig",
@@ -7161,7 +7918,13 @@
     "body_text": "A Silly Song - {e}: If you played a song this turn, gain 1 lore.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_34"
+    "id": "2_34",
+    "flavor_text": "",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Simangaliso Sibaya",
@@ -7178,7 +7941,12 @@
     "card_num": 200,
     "body_text": "Deal 3 damage to chosen character.",
     "set_id": "TFC",
-    "id": "1_200"
+    "id": "1_200",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Kendall Hale",
@@ -7201,7 +7969,8 @@
     "willpower": 4,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_22"
+    "id": "2_22",
+    "card_type": "Character"
   },
   {
     "artist": "LadyShalirin",
@@ -7224,7 +7993,8 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_23"
+    "id": "2_23",
+    "card_type": "Character"
   },
   {
     "artist": "Samantha Erdini",
@@ -7247,7 +8017,8 @@
     "willpower": 2,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_24"
+    "id": "2_24",
+    "card_type": "Character"
   },
   {
     "artist": "Javi Salas",
@@ -7270,7 +8041,9 @@
     "willpower": 5,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_25"
+    "id": "2_25",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Matt Chapman",
@@ -7287,7 +8060,12 @@
     "card_num": 96,
     "body_text": "Deal 2 damage to chosen damaged character.",
     "set_id": "TFC",
-    "id": "1_96"
+    "id": "1_96",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Leonardo Giammichele",
@@ -7308,7 +8086,8 @@
     "willpower": 4,
     "strength": 5,
     "set_id": "TFC",
-    "id": "1_191"
+    "id": "1_191",
+    "card_type": "Character"
   },
   {
     "artist": "Hedvig Haggman-Sund",
@@ -7325,7 +8104,12 @@
     "card_num": 97,
     "body_text": "Whenever one of your characters quests this turn, each opponent loses 1 lore.",
     "set_id": "TFC",
-    "id": "1_97"
+    "id": "1_97",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Bill Robinson",
@@ -7345,7 +8129,9 @@
     "willpower": 6,
     "strength": 4,
     "set_id": "TFC",
-    "id": "1_125"
+    "id": "1_125",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Marcel Berg",
@@ -7366,7 +8152,8 @@
     "willpower": 8,
     "strength": 4,
     "set_id": "TFC",
-    "id": "1_21"
+    "id": "1_21",
+    "card_type": "Character"
   },
   {
     "artist": "Alex Accorsi",
@@ -7386,7 +8173,9 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_22"
+    "id": "1_22",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Simangaliso Sibaya",
@@ -7408,7 +8197,8 @@
     "willpower": 5,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_23"
+    "id": "1_23",
+    "card_type": "Character"
   },
   {
     "artist": "Kendall Hale",
@@ -7425,7 +8215,12 @@
     "card_num": 102,
     "body_text": "Slash - {e} - Chosen character gets +1 {s} this turn. If a character named Aladdin is chosen, he get +2 {s} instead.",
     "set_id": "TFC",
-    "id": "1_102"
+    "id": "1_102",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Jared Nickerl / Alex Accorsi",
@@ -7442,7 +8237,12 @@
     "card_num": 201,
     "body_text": "(A character with cost 3 or more can {e} to sing this song for free.) Deal damage to chosen character equal to the number of characters you have in play.",
     "set_id": "RFB",
-    "id": "2_201"
+    "id": "2_201",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Giulia Riva",
@@ -7459,7 +8259,12 @@
     "card_num": 98,
     "body_text": "(A character with cost 2 or more can {e} to sing this song for free.)\n\nEach opponent chooses and discards a card.",
     "set_id": "TFC",
-    "id": "1_98"
+    "id": "1_98",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Jared Nickerl",
@@ -7479,7 +8284,9 @@
     "willpower": 7,
     "strength": 5,
     "set_id": "TFC",
-    "id": "1_55"
+    "id": "1_55",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Gaku Kumatori",
@@ -7498,7 +8305,12 @@
     "body_text": "{e}, 2 {i} - Chosen character gets +1 {s} this turn for each 1 damage on them.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_136"
+    "id": "2_136",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Andrew Trabbold",
@@ -7515,7 +8327,12 @@
     "card_num": 136,
     "body_text": "Final Enchantment - Banish this item - Banish chosen villain character.",
     "set_id": "TFC",
-    "id": "1_136"
+    "id": "1_136",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Jeff Murchie",
@@ -7535,7 +8352,9 @@
     "willpower": 4,
     "strength": 1,
     "set_id": "TFC",
-    "id": "1_92"
+    "id": "1_92",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Leonardo Giammichele",
@@ -7556,7 +8375,8 @@
     "willpower": 8,
     "strength": 5,
     "set_id": "TFC",
-    "id": "1_159"
+    "id": "1_159",
+    "card_type": "Character"
   },
   {
     "artist": "Eri Welli",
@@ -7573,7 +8393,12 @@
     "card_num": 133,
     "body_text": "Each opponent loses 1 lore.",
     "set_id": "TFC",
-    "id": "1_133"
+    "id": "1_133",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Andrew Trabbold",
@@ -7594,7 +8419,8 @@
     "willpower": 5,
     "strength": 5,
     "set_id": "TFC",
-    "id": "1_192"
+    "id": "1_192",
+    "card_type": "Character"
   },
   {
     "artist": "Kamil Murzyn",
@@ -7616,7 +8442,8 @@
     "willpower": 6,
     "strength": 8,
     "set_id": "TFC",
-    "id": "1_126"
+    "id": "1_126",
+    "card_type": "Character"
   },
   {
     "artist": "Jake Parker",
@@ -7635,7 +8462,12 @@
     "body_text": "(A character with cost 2 or more can {e} to sing this song for free.)\nDeal 2 damage to chosen character of yours to deal 2 damaged to another chosen character.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_130"
+    "id": "2_130",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Matthew Robert Davies",
@@ -7653,7 +8485,12 @@
     "card_num": 99,
     "body_text": "Chosen character gains Reckless during their next turn. (They can't quest and must challenge if able.)",
     "set_id": "TFC",
-    "id": "1_99"
+    "id": "1_99",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Gaku Kumatori",
@@ -7674,7 +8511,8 @@
     "willpower": 1,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_194"
+    "id": "2_194",
+    "card_type": "Character"
   },
   {
     "artist": "Carlos Ruiz",
@@ -7693,7 +8531,12 @@
     "body_text": "(A character with cost 3 or more can {e} to sing this song for free.)\nBanish chosen Villain of your to banish chosen character.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_131"
+    "id": "2_131",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Hadjie Joos",
@@ -7717,7 +8560,8 @@
     "willpower": 3,
     "strength": 4,
     "set_id": "RFB",
-    "id": "2_160"
+    "id": "2_160",
+    "card_type": "Character"
   },
   {
     "artist": "Eri Welli",
@@ -7738,7 +8582,9 @@
     "willpower": 3,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_195"
+    "id": "2_195",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Matthew Robert Davies / Lady Shalirin",
@@ -7761,7 +8607,9 @@
     "willpower": 3,
     "strength": 4,
     "set_id": "RFB",
-    "id": "2_26"
+    "id": "2_26",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Leonardo Giammichele",
@@ -7784,7 +8632,8 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_93"
+    "id": "2_93",
+    "card_type": "Character"
   },
   {
     "artist": "Eva Widerman",
@@ -7806,7 +8655,9 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_27"
+    "id": "2_27",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Matthew Robert Davies",
@@ -7827,7 +8678,8 @@
     "willpower": 5,
     "strength": 4,
     "set_id": "TFC",
-    "id": "1_56"
+    "id": "1_56",
+    "card_type": "Character"
   },
   {
     "artist": "Julie",
@@ -7846,7 +8698,12 @@
     "body_text": "Knowledge: {e}, 1 {i} - Gain 1 lore.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_68"
+    "id": "2_68",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Giulia Riva",
@@ -7866,7 +8723,9 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_57"
+    "id": "1_57",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Matthew Robert Davies",
@@ -7887,7 +8746,9 @@
     "willpower": 4,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_196"
+    "id": "2_196",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Samantra Erdini",
@@ -7907,7 +8768,9 @@
     "willpower": 3,
     "strength": 1,
     "set_id": "RFB",
-    "id": "2_197"
+    "id": "2_197",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Casey Robin",
@@ -7929,7 +8792,9 @@
     "willpower": 3,
     "strength": 5,
     "set_id": "RFB",
-    "id": "2_94"
+    "id": "2_94",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "P. Gaylord / L. Giammichele",
@@ -7952,7 +8817,8 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_127"
+    "id": "2_127",
+    "card_type": "Character"
   },
   {
     "artist": "Kenneth Anderson",
@@ -7974,7 +8840,8 @@
     "willpower": 4,
     "strength": 4,
     "set_id": "TFC",
-    "id": "1_127"
+    "id": "1_127",
+    "card_type": "Character"
   },
   {
     "artist": "Juan Diego Leon",
@@ -7995,7 +8862,8 @@
     "willpower": 2,
     "strength": 1,
     "set_id": "TFC",
-    "id": "1_24"
+    "id": "1_24",
+    "card_type": "Character"
   },
   {
     "artist": "Cookie",
@@ -8016,7 +8884,9 @@
     "willpower": 5,
     "strength": 4,
     "set_id": "TFC",
-    "id": "1_193"
+    "id": "1_193",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Caner Soylu",
@@ -8037,7 +8907,9 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_93"
+    "id": "1_93",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Adrianne Gumaya",
@@ -8058,7 +8930,9 @@
     "willpower": 3,
     "strength": 3,
     "set_id": "TFC",
-    "id": "1_58"
+    "id": "1_58",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Grace Tran",
@@ -8079,7 +8953,8 @@
     "willpower": 4,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_194"
+    "id": "1_194",
+    "card_type": "Character"
   },
   {
     "artist": "Cristian Romero",
@@ -8099,7 +8974,9 @@
     "willpower": 9,
     "strength": 5,
     "set_id": "TFC",
-    "id": "1_160"
+    "id": "1_160",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Brian Weisz",
@@ -8123,7 +9000,8 @@
     "willpower": 5,
     "strength": 4,
     "set_id": "RFB",
-    "id": "2_128"
+    "id": "2_128",
+    "card_type": "Character"
   },
   {
     "artist": "Simangaliso Sibaya",
@@ -8144,7 +9022,8 @@
     "willpower": 8,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_59"
+    "id": "1_59",
+    "card_type": "Character"
   },
   {
     "artist": "Oleg Yurkov",
@@ -8161,7 +9040,12 @@
     "card_num": 67,
     "body_text": "Peer Into The Depths - {e} - Look at the top 2 cards of your deck. Put one on the top of your deck and the other on the bottom.",
     "set_id": "TFC",
-    "id": "1_67"
+    "id": "1_67",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Jenna Gray",
@@ -8178,7 +9062,12 @@
     "card_num": 34,
     "body_text": "Now, Sing! - Whenever you play a song, you may pay 1 {i} to draw a card.",
     "set_id": "TFC",
-    "id": "1_34"
+    "id": "1_34",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Michaela Martin",
@@ -8195,7 +9084,12 @@
     "card_num": 100,
     "body_text": "Chosen character gets +2 {s} this turn. If a villain character is chosen, they get +3 {s} instead.",
     "set_id": "TFC",
-    "id": "1_100"
+    "id": "1_100",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Man? Kandalyan / Luca Pinelli",
@@ -8217,7 +9111,9 @@
     "willpower": 5,
     "strength": 5,
     "set_id": "RFB",
-    "id": "2_95"
+    "id": "2_95",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Antonia Flechsig",
@@ -8234,7 +9130,12 @@
     "card_num": 204,
     "body_text": "Training - Whenever you play a character with 4 {s} or more, you may pay 1 {i} to draw a card.",
     "set_id": "RFB",
-    "id": "2_204"
+    "id": "2_204",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Luis Huerta",
@@ -8253,7 +9154,12 @@
     "body_text": "Chosen damaged character gets +3 {s} this turn.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_132"
+    "id": "2_132",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Kamil Murzyn",
@@ -8270,7 +9176,12 @@
     "card_num": 68,
     "body_text": "I'm Late! - {e}, 1{i} - Chosen character gains Rush this turn. (They can challenge the turn they're played.)",
     "set_id": "TFC",
-    "id": "1_68"
+    "id": "1_68",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Item",
+    "lore": 0
   },
   {
     "artist": "Rianti Hidayat",
@@ -8293,7 +9204,8 @@
     "willpower": 3,
     "strength": 2,
     "set_id": "RFB",
-    "id": "2_161"
+    "id": "2_161",
+    "card_type": "Character"
   },
   {
     "artist": "John Loren",
@@ -8315,7 +9227,9 @@
     "willpower": 5,
     "strength": 5,
     "set_id": "RFB",
-    "id": "2_59"
+    "id": "2_59",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Bill Robinson",
@@ -8332,7 +9246,12 @@
     "card_num": 165,
     "body_text": "Chosen Character gains Support this turn. (Whenever they quest, you may add their {s} to another chosen character's {s} this turn.)",
     "set_id": "TFC",
-    "id": "1_165"
+    "id": "1_165",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action",
+    "lore": 0
   },
   {
     "artist": "Giulia Riva",
@@ -8350,7 +9269,13 @@
     "body_text": "(A character with cost X or more can {e} to sing this song for free.)\r \r Banish chosen character with 5 {s} or more.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_31"
+    "id": "2_31",
+    "flavor_text": "",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Eva Widerman",
@@ -8368,7 +9293,13 @@
     "body_text": "(A character with cost 2 or more can {e} to sing this song for free.)\nChosen character gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.)",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_133"
+    "id": "2_133",
+    "flavor_text": "",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Alice Pisoni",
@@ -8385,7 +9316,12 @@
     "card_num": 31,
     "body_text": "Each opponent chooses and discards 2 cards.",
     "set_id": "TFC",
-    "id": "1_31"
+    "id": "1_31",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Hadjie Joos",
@@ -8406,7 +9342,8 @@
     "willpower": 2,
     "strength": 2,
     "set_id": "TFC",
-    "id": "1_60"
+    "id": "1_60",
+    "card_type": "Character"
   },
   {
     "artist": "Casey Robin",
@@ -8429,7 +9366,9 @@
     "willpower": 4,
     "strength": 4,
     "set_id": "RFB",
-    "id": "2_60"
+    "id": "2_60",
+    "flavor_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Pablo Hidalgo",
@@ -8451,7 +9390,9 @@
     "willpower": 4,
     "strength": 3,
     "set_id": "RFB",
-    "id": "2_61"
+    "id": "2_61",
+    "body_text": "",
+    "card_type": "Character"
   },
   {
     "artist": "Rob Di Salvo",
@@ -8469,7 +9410,13 @@
     "body_text": "{A character with cost X or more can {e} to sing this song for free.)\n\nCount the number of characters you have in play. You pay that amount of {i} less for the next character you play this turn.",
     "foil_image": "",
     "set_id": "RFB",
-    "id": "2_32"
+    "id": "2_32",
+    "flavor_text": "",
+    "classifications": "",
+    "willpower": 0,
+    "strength": 0,
+    "card_type": "Action - Song",
+    "lore": 0
   },
   {
     "artist": "Koni",
@@ -8491,6 +9438,7 @@
     "willpower": 4,
     "strength": 0,
     "set_id": "TFC",
-    "id": "1_61"
+    "id": "1_61",
+    "card_type": "Character"
   }
 ]

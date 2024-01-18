@@ -27,6 +27,13 @@ const transformedJson = transformKeys(jsonData);
 transformedJson.forEach(card => {
     console.log(card);
     card.id = card.set_num + "_" + card.card_num;
+    card.body_text = card.body_text || "";
+    card.flavor_text = card.flavor_text || "";
+    card.classifications = card.classifications || "";
+    card.willpower = card.willpower || 0;
+    card.strength = card.strength || 0;
+    card.card_type = card.type;
+    card.lore = card.lore || 0;
 });
 
 console.log(transformedJson);

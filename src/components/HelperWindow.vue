@@ -44,10 +44,10 @@
         </div>
         <div class="helper-box">
             <h3>Ink Colors (i)</h3>
-            <div class="row"><strong>s:</strong> Steel</div>
+            <div class="row"><strong>g:</strong> Steel (grey)</div>
             <div class="row"><strong>r:</strong> Ruby</div>
-            <div class="row"><strong>b:</strong> Sapphire</div>
-            <div class="row"><strong>p:</strong> Amethyst</div>
+            <div class="row"><strong>s:</strong> Sapphire</div>
+            <div class="row"><strong>p:</strong> Amethyst (purple)</div>
             <div class="row"><strong>a:</strong> Amber</div>
             <div class="row"><strong>e:</strong> Emerald</div>
             <hr />
