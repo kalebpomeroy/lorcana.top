@@ -70,7 +70,7 @@ export default {
     border-radius: 5px; /* Rounded corners */
 }
 
-.search-button {
+button {
     padding: 10px 20px;
     background-color: #007bff; /* Bootstrap primary color */
     color: white;

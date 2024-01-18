@@ -1,14 +1,16 @@
 <template>
     <div class="results-grid">
-        <span v-for="card in cards" class="card" :key="card.id">
-            <img loading="lazy" :src="`http://drrkqgqijb8dh.cloudfront.net/${card.id}.png`" />
-            {{ card.name }}
-        </span>
+        <CardPane v-for="card in cards" :key="card.id" :card="card" />
     </div>
 </template>
   
 <script>
+import CardPane from './CardPane.vue';
+
 export default {
+    components: {
+        CardPane
+    },
     props: {
         cards: Array, // Expect an array of card objects
     },
@@ -24,13 +26,6 @@ export default {
     padding: 20px;
 }
 
-/* Individual card styling */
-.card {
-    width: 200px;
-}
 
-.card img {
-    width: 100%; /* Make image fill the card */
-}
 
 </style>

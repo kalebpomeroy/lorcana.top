@@ -3,6 +3,7 @@
       <SearchBar @search="searchCards" />
       <PaginatorRow @setPage="pageCards" :total="total" :limit="limit" :offset="offset" @pageCards="pageCards" />
       <ResultsGrid :cards="cards"/>
+      <PaginatorRow @setPage="pageCards" :total="total" :limit="limit" :offset="offset" @pageCards="pageCards" />
     </div>
 </template>
 
