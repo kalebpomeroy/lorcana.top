@@ -30,7 +30,6 @@ export default {
     mounted() {
         const urlParams = new URLSearchParams(window.location.search);
         this.offset = urlParams.get('offset') || 0;
-        // this.limit = urlParams.get('limit') || 20;
         this.q = urlParams.get('q') || "";
         this.searchCards();
     },
@@ -47,7 +46,7 @@ export default {
 
         async fetchCards() {
             try {
-                const response = await axios.get('/search', { 
+                const response = await axios.get('/cards.json', { 
                     params: { 
                         q: this.q, 
                         offset: this.offset, 

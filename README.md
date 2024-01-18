@@ -1,5 +1,29 @@
+# lorcana.top
 
+## Project setup
+```
+npm install
+```
 
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
+```
 Partial Text Searches
     n:xxxx to search by name
     b:xxxx to search by the body text
@@ -20,3 +44,4 @@ Search by the key letter (or exact text match)
 One Offs
     e:XXX to search by the set (exact matches only)
     z:yes || z:no to search by inkable
+```
