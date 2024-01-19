@@ -1,6 +1,6 @@
 <template>
     <div>
-      <SearchBar @search="searchCards" />
+      <SearchBar @search="searchCards" v-model:q="q" />
       <PaginatorRow @setPage="pageCards" :total="total" :limit="limit" :offset="offset" @pageCards="pageCards" />
       <ResultsGrid :cards="cards"/>
       <PaginatorRow @setPage="pageCards" :total="total" :limit="limit" :offset="offset" @pageCards="pageCards" />
@@ -28,10 +28,10 @@ export default {
         };
     },
     mounted() {
-        const urlParams = new URLSearchParams(window.location.search);
-        this.offset = urlParams.get('offset') || 0;
-        this.q = urlParams.get('q') || "";
-        this.searchCards();
+        // const urlParams = new URLSearchParams(window.location.search);
+        // this.offset = urlParams.get('offset') || 0;
+        // this.offset = urlParams.get('limit') || 10;
+        // this.searchCards();
     },
     methods: {
         async pageCards(offset) {
@@ -39,8 +39,9 @@ export default {
             await this.fetchCards();         
         },
 
-        async searchCards(q) {           
+        async searchCards(q) {
             this.q = q ?? this.q; 
+            this.offset = 0;
             await this.fetchCards();
         },
 
@@ -48,7 +49,7 @@ export default {
             try {
                 const response = await axios.get('/cards.json', { 
                     params: { 
-                        q: this.q, 
+                        q: this.q.toLowerCase(),
                         offset: this.offset, 
                         limit: this.limit 
                     } 

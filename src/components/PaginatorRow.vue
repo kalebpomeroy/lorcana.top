@@ -2,7 +2,7 @@
 <template>
     <div class="pagination-container">
         <button @click="previousPage" :disabled="offset === 0" class="pagination-button">Previous</button>
-        <div>Page {{ currentPage }} of {{ totalPages }}</div>
+        <div>Page {{ currentPage }} of {{ totalPages }} ({{ this.total }} cards)</div>
         <button @click="nextPage" :disabled="isLastPage" class="pagination-button">Next</button>
     </div>
 </template>

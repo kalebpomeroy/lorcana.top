@@ -2,7 +2,12 @@
     <div class="search-container">
         <div class="search-bar">
             <form @submit.prevent="searchCards">
-                <input @input="handleInput" class="search-input" type="text" v-model="q" placeholder="Search for cards">
+                <input 
+                    v-model="q" 
+                    @input="handleInput" 
+                    class="search-input" 
+                    type="text" 
+                    placeholder="Search for cards">
                 <button class="search-button" type="submit">Search</button>
             </form>
 
@@ -13,7 +18,7 @@
             <HelperWindow />
         </div>
     </div>
-    
+     
 </template>
   
 <script>
@@ -22,7 +27,6 @@ import HelperWindow from './HelperWindow.vue'
 export default {
     data() {
         return {
-            q: '',
             showHelperText: false,
         };
     },
@@ -38,6 +42,11 @@ export default {
         toggleHelperText() {
             this.showHelperText = !this.showHelperText;
         },
+    },
+    mounted() {        
+        const urlParams = new URLSearchParams(window.location.search);
+        this.q = urlParams.get('q') || "";
+        this.searchCards();
     },
     components: {
         HelperWindow, // Ensure HelperWindow component is imported
@@ -72,7 +81,7 @@ export default {
 
 button {
     padding: 10px 20px;
-    background-color: #007bff; /* Bootstrap primary color */
+    background-color: #007bff; 
     color: white;
     border: none;
     border-radius: 5px;
