@@ -11,7 +11,12 @@
 </template>
            
 <script>
+import { getDeckList } from '../composables/list.js';
 export default {
+    setup() {
+        const { deckList, addCard, removeCard } = getDeckList();
+        return { deckList, addCard, removeCard };
+    },
     data() {
         return {
             showButtons: false,
@@ -24,10 +29,12 @@ export default {
     methods: {
         increaseCount() {
             this.count++;
+            this.addCard(this.card.name);
         },
         decreaseCount() {
             if (this.count > 0) {
                 this.count--;
+                this.removeCard(this.card.name);
             }
         }
     }

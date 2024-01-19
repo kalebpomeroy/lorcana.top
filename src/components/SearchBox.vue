@@ -27,12 +27,6 @@ export default {
             offset: 0
         };
     },
-    mounted() {
-        // const urlParams = new URLSearchParams(window.location.search);
-        // this.offset = urlParams.get('offset') || 0;
-        // this.offset = urlParams.get('limit') || 10;
-        // this.searchCards();
-    },
     methods: {
         async pageCards(offset) {
             this.offset = offset ?? this.offset;
