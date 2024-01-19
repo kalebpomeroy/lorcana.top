@@ -14,13 +14,21 @@
 import { getDeckList } from '../composables/list.js';
 export default {
     setup() {
-        const { deckList, addCard, removeCard } = getDeckList();
-        return { deckList, addCard, removeCard };
+        const { decklist, addCard, removeCard } = getDeckList();
+        console.log("Component decklist", decklist, decklist.value)
+        return { decklist, addCard, removeCard };
+    },
+    computed: {
+        count() {
+            if (!this.decklist) {
+                return 0;
+            }
+            return this.decklist[this.card.name] ?? 0;
+        }
     },
     data() {
         return {
-            showButtons: false,
-            count: 0
+            showButtons: false
         };
     },
     props: {
@@ -28,14 +36,10 @@ export default {
     },
     methods: {
         increaseCount() {
-            this.count++;
             this.addCard(this.card.name);
         },
         decreaseCount() {
-            if (this.count > 0) {
-                this.count--;
-                this.removeCard(this.card.name);
-            }
+            this.removeCard(this.card.name);
         }
     }
 };
