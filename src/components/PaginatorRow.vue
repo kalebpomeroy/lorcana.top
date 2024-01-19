@@ -1,9 +1,9 @@
 
 <template>
     <div class="pagination-container">
-        <button @click="previousPage" :disabled="offset === 0" class="pagination-button">Previous</button>
-        <div>Page {{ currentPage }} of {{ totalPages }} ({{ this.total }} cards)</div>
-        <button @click="nextPage" :disabled="isLastPage" class="pagination-button">Next</button>
+        <button @click="previousPage" :disabled="offset === 0" class="btn">Previous</button>
+        <div class="pagination-text">Page {{ currentPage }} of {{ totalPages }} ({{ this.total }} cards)</div>
+        <button @click="nextPage" :disabled="isLastPage" class="btn">Next</button>
     </div>
 </template>
 
@@ -49,24 +49,7 @@ export default {
     align-items: center;
     margin: 20px 0;
 }
-
-.pagination-button {
-    padding: 10px 15px;
-    margin: 0 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.pagination-button:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
-}
-
-.pagination-button:hover:not(:disabled) {
-    background-color: #0056b3;
+.pagination-text {
+    margin: 0 20px;
 }
 </style>

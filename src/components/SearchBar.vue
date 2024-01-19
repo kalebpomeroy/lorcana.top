@@ -5,13 +5,13 @@
                 <input 
                     v-model="q" 
                     @input="handleInput" 
-                    class="search-input" 
                     type="text" 
+                    class="search-input"
                     placeholder="Search for cards">
-                <button class="search-button" type="submit">Search</button>
+                <button class="btn" type="submit">Search</button>
             </form>
-
-            <button @click="toggleHelperText" class="search-button" >?</button>
+            &nbsp;
+            <button @click="toggleHelperText" class="btn" >?</button>
         </div>
         
         <div v-if="showHelperText" class="helper-popover">
@@ -28,11 +28,21 @@ export default {
     data() {
         return {
             showHelperText: false,
+            showingDeck: false,
         };
     },
     methods: {
         searchCards() {
             this.$emit('search', this.q);
+        },
+        toggleDecklist() {
+            if (this.showingDeck) {
+                this.$emit('search', this.q);
+                this.showingDeck = false;
+            } else {
+                this.$emit('showDecklist');
+                this.showingDeck = true;
+            }
         },
         handleInput() {
             if (this.q.endsWith(' ')) {
@@ -64,28 +74,23 @@ export default {
 }
 
 .search-bar {
-    width: 100%;
-    max-width: 600px; /* Maximum width of the search bar */
-    margin: 0 auto; /* Centering the search bar */
     display: flex;
-    gap: 10px;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjust the padding as needed */
+}
+
+.search-bar form {
+    flex-grow: 1; /* Make the form take up the available space */
+    display: flex;
+    gap: 10px; /* Adjust the gap between input and button as needed */
 }
 
 .search-input {
-    flex-grow: 1; /* Make input take up available space */
+    flex-grow: 1; /* Make the input take up the available space */
     padding: 10px;
-    font-size: 16px; /* Larger font for easy reading */
-    border: 1px solid #ddd; /* Light border for the input */
-    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-button {
-    padding: 10px 20px;
-    background-color: #007bff; 
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
 </style>

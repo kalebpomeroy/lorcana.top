@@ -16,8 +16,6 @@ function loadFromLocalStorage() {
     if (storedData) {
         decklist.value = JSON.parse(storedData);
     }
-
-    console.log("Loaded from localStorage: " + JSON.stringify(decklist.value));
     isLoaded = true;
 }
 

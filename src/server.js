@@ -1,14 +1,18 @@
 const express = require('express');
+const cors = require('cors');
 const path = require('path');
 const app = express();
 const { cards, filter } = require('./cards.js');
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3300;
 
 
 
 // Serve static files from the Vue app build directory
 app.use(express.static(path.join(__dirname, '../dist')));
+app.use(cors({
+    origin: '*'
+}));
 
 app.get('/cards.json', (req, res) => {
     let limit = parseInt(req.query.limit, 10) || 10; // Default limit to 10

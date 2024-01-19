@@ -1,30 +1,30 @@
 <template>
     <div>
-      <SearchBar @search="searchCards" v-model:q="q" />
-      <PaginatorRow @setPage="pageCards" :total="total" :limit="limit" :offset="offset" @pageCards="pageCards" />
-      <ResultsGrid :cards="cards"/>
-      <PaginatorRow @setPage="pageCards" :total="total" :limit="limit" :offset="offset" @pageCards="pageCards" />
+        <SearchBar @search="searchCards" v-model:q="q"/>
+        <PaginatorRow @setPage="pageCards" :total="total" :limit="limit" :offset="offset" @pageCards="pageCards" />
+        <ResultsGrid :cards="cards" />
+        <PaginatorRow @setPage="pageCards" :total="total" :limit="limit" :offset="offset" @pageCards="pageCards" />
     </div>
 </template>
 
 <script>
 import axios from 'axios';
-import SearchBar from './SearchBar.vue';
-import PaginatorRow from './PaginatorRow.vue';
-import ResultsGrid from './ResultsGrid.vue';
+import SearchBar from '../components/SearchBar.vue';
+import PaginatorRow from '../components/PaginatorRow.vue';
+import ResultsGrid from '../components/ResultsGrid.vue';
 
 export default {
     components: {
         SearchBar,
         PaginatorRow,
-        ResultsGrid
+        ResultsGrid,
     },
     data() {
         return {
             cards: [],
             limit: 10, 
             total: 0,
-            offset: 0
+            offset: 0,
         };
     },
     methods: {
@@ -41,6 +41,7 @@ export default {
 
         async fetchCards() {
             try {
+                
                 const response = await axios.get('/cards.json', { 
                     params: { 
                         q: this.q.toLowerCase(),

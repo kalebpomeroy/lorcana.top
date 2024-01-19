@@ -1,10 +1,10 @@
 <template>
     <div class="image-container card" @mouseover="showButtons = true" @mouseleave="showButtons = false">
         <img loading="lazy" :src="`http://drrkqgqijb8dh.cloudfront.net/${card.id}.png`" />
-        <button v-if="showButtons" class="minus-button" @click="decreaseCount">-</button>
+        <button v-if="showButtons" class="btn minus-button" @click="decreaseCount">-</button>
         
         <div v-if="count > 0" class="total-count">{{ count }}</div>
-        <button v-if="showButtons" class="plus-button" @click="increaseCount">+</button>
+        <button v-if="showButtons" class=" btn plus-button" @click="increaseCount">+</button>
         
         {{ card.name }}
     </div>
@@ -15,7 +15,6 @@ import { getDeckList } from '../composables/list.js';
 export default {
     setup() {
         const { decklist, addCard, removeCard } = getDeckList();
-        console.log("Component decklist", decklist, decklist.value)
         return { decklist, addCard, removeCard };
     },
     computed: {
@@ -81,11 +80,4 @@ export default {
     border-radius: 5px;
 }
 
-.card {
-    width: 200px;
-}
-
-.card img {
-    width: 100%; /* Make image fill the card */
-}
 </style>

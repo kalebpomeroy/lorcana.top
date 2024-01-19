@@ -17,8 +17,12 @@ function parseToken(token) {
 }
 
 function filter(q) {
+    if (!q) { return cards; }
     //Split q on spaces and return an array of tokens (respecting quoted strings)
-    tokens = q.match(/"[^"]*"|\S+/g) || [];
+    tokens = q.match(/"[^"]*"|\S+/g).map(token => {
+        // Remove quotes from tokens that are quoted
+        return token.replace(/^"|"$/g, '');
+    }) || [];
 
     // Default sort to name ascending
     let sort = 'n';
@@ -40,6 +44,10 @@ function filter(q) {
                 (value == "a") ? sort_order = ASC : sort_order = DESC;
                 return true;
             }
+
+            if (value.includes(',')) {
+                value = value.split(',').map(val => val.trim()); // Split and trim each value
+            }        
             
             try {
                 // If the key is prefixed with !, then we want the opposite of the comparison
@@ -53,9 +61,18 @@ function filter(q) {
                 if (!compare) { return true; }
 
                 // Run the comparison function, returning the opposite if necessary
-                return opposite ? !compare(card, value, op) : compare(card, value, op);
+                const performComparison = (val) => {
+                    return opposite ? !compare(card, val, op) : compare(card, val, op);
+                }; 
+                if (Array.isArray(value)) {
+                    // Return true if any of the values in the array match
+                    return value.some(val => performComparison(val));
+                } else {
+                    // Handle the case where value is a string
+                    return performComparison(value);
+                }
+
             } catch (e) {
-                console.log("Returning true", card.name, token, e)
                 return true // if the filter fails for any reason, don't filter out the card
             }
         });
