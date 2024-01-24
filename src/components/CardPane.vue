@@ -1,21 +1,26 @@
 <template>
-    <div class="image-container card" @mouseover="showButtons = true" @mouseleave="showButtons = false">
-        <img loading="lazy" :src="`http://drrkqgqijb8dh.cloudfront.net/${card.id}.png`" />
-        <button v-if="showButtons" class="btn minus-button" @click="decreaseCount">-</button>
-        
-        <div v-if="count > 0" class="total-count">{{ count }}</div>
-        <button v-if="showButtons" class=" btn plus-button" @click="increaseCount">+</button>
-        
-        {{ card.name }}
+    <div class="image-container card">
+        <CardImage :src="`http://drrkqgqijb8dh.cloudfront.net/${card.id}.png`" />
+        <div v-if="count > 0" class="total-count">{{ count}}</div>
+        <div class="pricer">
+            <button class="btn" @click="decreaseCount">-</button>
+            <div class="price"> $--.-- </div>
+            <button class="btn" @click="increaseCount">+</button>
+        </div>
+        <div class="name">{{ card.name }}</div>
     </div>
 </template>
            
 <script>
+import CardImage from './CardImage.vue';
 import { getDeckList } from '../composables/list.js';
 export default {
     setup() {
         const { decklist, addCard, removeCard } = getDeckList();
         return { decklist, addCard, removeCard };
+    },
+    components: {
+        CardImage
     },
     computed: {
         count() {
@@ -24,11 +29,6 @@ export default {
             }
             return this.decklist[this.card.name] ?? 0;
         }
-    },
-    data() {
-        return {
-            showButtons: false
-        };
     },
     props: {
         card: Object
@@ -50,20 +50,21 @@ export default {
     display: inline-block;
 }
 
-/* Style for the + button */
-.minus-button {
-    position: absolute;
-    top: 30%; 
-    left: 10px; 
-    transform: translateY(-50%); 
+.pricer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
 }
 
-/* Style for the - button */
-.plus-button {
-    position: absolute;
-    top: 30%; 
-    right: 10px; 
-    transform: translateY(-50%); 
+.price {
+    padding: 10px 15px;
+}
+
+.name {
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
 }
 
 /* Style for the - button */
