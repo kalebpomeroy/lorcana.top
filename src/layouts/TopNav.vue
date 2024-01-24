@@ -1,26 +1,36 @@
 <template>
     <header class="header-bar">
         <div class="logo-container">
-            <img src="@/assets/logo.png" alt="Logo" class="logo"> <!-- Replace with your logo path -->
+            <img src="@/assets/logo.png" alt="Logo" class="logo">
         </div>
         <div class="title-container">
-            <h1>lorcana.top</h1> <!-- Replace with your name -->
+            <h1>lorcana.top</h1>
         </div>
         <nav class="navigation">
             <ul>
                 <li><a href="/">Card Search</a></li>
-                <li><a href="">Current List (<ListCounter />)</a></li>
-                <li><a href="">Login</a></li>
+                <li @click="toggleDeckPreview">Current List (<ListCounter />)</li>
+                <li>Login</li>
             </ul>
         </nav>
     </header>
+    <DeckPreview v-if="showDeckPreview"/>
 </template>
 <script>
+    import DeckPreview from '../components/DeckPreview.vue';
     import ListCounter from '../components/ListCounter.vue';
 
     export default {
         components: {
+            DeckPreview,
             ListCounter
+        },
+        data: function(){
+            return { showDeckPreview: false}
+        }, methods: {
+            toggleDeckPreview() {
+                this.showDeckPreview = !this.showDeckPreview;
+            }
         }
     }
 </script>
@@ -36,12 +46,12 @@
 }
 
 .logo-container .logo {
-    height: 50px; /* Adjust as needed */
+    height: 50px;
 }
 
 .title-container h1 {
     margin: 0;
-    font-size: 1.5em; /* Adjust as needed */
+    font-size: 1.5em;
 }
 
 .navigation ul {
@@ -52,15 +62,16 @@
 
 .navigation ul li {
     padding: 5px 10px;
-}
-
-.navigation a {
-    text-decoration: none;
     color: white;
+    cursor: pointer;
     transition: color 0.3s ease;
 }
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+}
 
-.navigation a:hover {
+.navigation li:hover {
     color: #4CAF50;
 }
 </style>

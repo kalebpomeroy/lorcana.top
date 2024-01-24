@@ -37,26 +37,6 @@ body {
     font-size: 24px; /* Adjust if needed */
 }
 
-/* Navigation styles */
-.navigation ul {
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
-}
-
-.navigation ul li {
-    padding: 5px 10px;
-}
-
-.navigation a {
-    text-decoration: none;
-    color: #0d222f;
-    transition: color 0.3s ease;
-}
-
-.navigation a:hover {
-    color: #FFF;
-}
 
 /* Button styles */
 .btn {
