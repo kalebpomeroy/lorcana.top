@@ -4,7 +4,7 @@
         <div v-if="count > 0" class="total-count">{{ count}}</div>
         <div class="pricer">
             <button class="btn" @click="decreaseCount">-</button>
-            <div class="price"> $--.-- </div>
+            <div class="price"> $0.00 </div>
             <button class="btn" @click="increaseCount">+</button>
         </div>
         <div class="name">{{ card.name }}</div>
@@ -58,6 +58,7 @@ export default {
 }
 
 .price {
+    color: #ddd;
     padding: 10px 15px;
 }
 

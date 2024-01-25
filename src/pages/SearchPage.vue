@@ -52,6 +52,9 @@ export default {
                 this.cards = response.data.cards;
                 this.total = response.data.total;
 
+                if (this.q === undefined || this.q === '') {
+                    return;
+                }
                 const url = new URL(window.location.href);
                 this.q !== undefined && url.searchParams.set('q', this.q);
                 this.limit !== undefined && url.searchParams.set('limit', this.limit);

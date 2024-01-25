@@ -42,6 +42,17 @@ function removeCard(cardTitle) {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(decklist.value));
 }
 
+function setCardQuanity(cardTitle, quantity) {
+    const newDecklist = { ...decklist.value };
+    if (quantity > 0) {
+        newDecklist[cardTitle] = quantity;
+    } else {
+        delete newDecklist[cardTitle];
+    }
+    decklist.value = newDecklist; // Replace the entire object
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(decklist.value));
+}
+
 function clearDeck() {
     decklist.value = {};
     localStorage.setItem(STORAGE_KEY, JSON.stringify(decklist.value));
@@ -54,6 +65,7 @@ export function getDeckList() {
         decklist: decklist,
         addCard: addCard, 
         removeCard: removeCard,
-        clearDeck: clearDeck
+        clearDeck: clearDeck,
+        setCardQuanity: setCardQuanity
     };
 }

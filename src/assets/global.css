@@ -97,3 +97,10 @@ body {
     background-color: #DDD;
     color: #0d222f;
 }
+
+.color-amber { color: #fdd868; }
+.color-steel { color: #afc2cc; }
+.color-sapphire { color: #50bae1; }
+.color-amethyst { color: #ac84bb; }
+.color-ruby { color: #ed6b75; }
+.color-emerald { color: #83c472; }
