@@ -55,6 +55,7 @@ export default {
     height: 50px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .price {

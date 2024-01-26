@@ -7,6 +7,13 @@
             <h1>lorcana.top</h1>
         </div>
         <nav class="navigation">
+            <div class="menu">
+                <svg viewBox="0 0 32 32" width="32" height="32">
+                    <rect width="32" height="8"></rect>
+                    <rect y="12" width="32" height="8"></rect>
+                    <rect y="24" width="32" height="8"></rect>
+                </svg>
+            </div>
             <ul>
                 <li><a href="/">Card Search</a></li>
                 <li @click="toggleDeckPreview">Current List (<ListCounter />)</li>
@@ -73,5 +80,41 @@
 
 .navigation li:hover {
     color: #4CAF50;
+}
+
+.navigation .menu {
+    display: none;
+}
+
+@media only screen and (max-width: 840px) {
+    .navigation ul {
+        display: none;
+    }
+
+    .navigation .menu {
+        align-items: center;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        fill: white;
+        height: 50px;
+        justify-content: center;
+        transition: fill 0.3s ease;
+        width: 50px;
+    }
+
+    .navigation .menu:hover {
+        fill: #4CAF50;
+    }
+
+    .navigation .menu:hover + ul, ul:hover {
+        background-color: #0d222f;
+        border: solid 1px white;
+        display: unset;
+        position: absolute;
+        right: 1px;
+        top: 64px;
+        z-index: 1001;
+    }
 }
 </style>

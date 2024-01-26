@@ -24,6 +24,8 @@ export default {
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Adapt number of columns to screen size */
     gap: 20px; /* Space between cards */
     padding: 20px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 
