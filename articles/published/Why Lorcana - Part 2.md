@@ -1,0 +1,26 @@
+In the [[Why Lorcana - Part 1|part 1]], I talked about all the ways that Lorcana is a great game to introduce people too. It's accessibility, relatability, and the possibilities for the future. But what about the game itself? Why is it a great game if you strip away all of the theme? There's a few things Lorcana does differently than most games, nothing it's doing is completely novel. The way they are mixed together create something greater than the sum of its mechanics.
+### Persistent Damage
+A long time ago in my early game design days, I got a piece of advice from a friend filtered from some Magic designer (would love a fact check/reference on this, I don't remember the source) "Use as few components as possible". The way I remember him telling me is that one of magic's strengths in the late 90s was that you carried around a stack of 60 cards and that was that.  Surely no one would carry a bag of tokens just to track damage!  Oh how times have changed. 
+
+While I understand the alleged history of Magic's decision to make damage non-permanent, it left a ton of unexplored space on the table. The difference between a 1/3 and a 1/4 in magic is not all that much. In fact, you're probably not looking at the stat line of that creature and reading the text to figure out why you care about this card at all.
+
+In Lorcana  a 2/2 vs couple of 1/3s is an interesting board state. Instead of stalemating to a boring position, it's a largely situational question to determine advantage on that board state. It can't be simplified to four total damage or 1 less creature. This creates unique and complex board states that are not immediately obvious to a new player. 
+### Win-combat vs Win-the-game 
+This idea is maybe the most novel part of Lorcana. In other games, when you resolve a big creature, it is probably good at surviving, removing other creatures, and winning the game. In Magic your 5/5 is just gonna be better than my two 1/1s. If I don't have those, you're probably winning the game. Contrast to Lorcana, that 5/5 may only quest for 1 win-the-game point, while my little creatures quest for 2 or three each. 
+
+This disparity makes cards incredibly dynamic on the power curve depending on how/when they are played in a game. In most games, the earlier you can get out your 'win-the-game' creature, the better. In Lorcana, you have to put creatures into the right scenarios to be good. Instead of having `x` power on the board, you have `x` Lore, and power split around creatures in interesting ways. Your 4/3 creature may be amazing against one deck or situation and useless against another. It's rare for other games to be able to have the same amount of depth before adding card text. 
+
+### Color matters
+In most games I've played, first step to deck building is choosing your faction/color/identity. This is often a big selling point getting in. But the second step in deck building is to figure out is learning how to break the rules. Splash white in my blue black deck so I have access to a wrath.  Netrunner lets you use up to a certain number of points from other factions. Many games just supply a colorless pool to share the generic cards. 
+
+Lorcana does not allow any sharing. Once you pick your two colors, that's all you have access to. No artifacts or basics. No land. Just your two colors. This means that when I know your colors I have simplified the decision space to a very finite amount of moves. One might think that is a bad thing. If so, try playinng Onitama. It uses only 5 cards and is incredibly deep.
+### Color does not matter 
+While color matters immensely during deck construction, once the game starts it no longer does. There's two places this shines through. 
+
+The most obvious is that there is only a single ink pool. You can have a deck with equal parts two colors, all one color or anywhere in between and the mana base functions the same. You don't have to draw the "right half" of your resources to have your deck work. 
+
+Another feature of Lorcana (at least at the time of writing) is that there are no cards that reference color. When looking at the card pool to build a deck, color is very interesting. When playing, the game uses only the text on the card. Minnie Mouse and Olaf are functionally the exact same card. That's how we can have have three copies of Honey Wizards.
+### Interesting Economy Decisions
+One of the first questions I like to ask when learning any game is 'how do you pay for things?'. Magic has set a pretty reasonable standard for economy. Land drops follow a linear path in the beginning of the game, and then plateaus off. Hitting your land drops consistently becomes a large part of deck building decisions. During the game, hitting your land drops is not an interesting decision point. It's a requirement to play the game, but it's never "fun" to draw lands. 
+
+Lorcana presents interesting decisions at every land drop. Instead of having a hands of lands and spells, you have 7 cards. Which of those 7 cards you use as land drastically changes the shape of the rest of the game. It's never as binary as 'do I play my land'. A fascinating emergent property of this is that the more uninkables you have, the fewer choices you'll be given during game. 
