@@ -15,18 +15,6 @@ app.use(cors({ origin: '*' }));
 app.use(express.static(path.join(__dirname, '../dist')));
 +app.use(express.static(path.join(__dirname, '../articles')));
 
-app.use('/articles', createProxyMiddleware({
-    target: 'https://publish.obsidian.md',
-    changeOrigin: true,
-    pathRewrite: {
-        '^/articles': '/serve?url=lorcana.top/articles/', // rewrite path
-    },
-    onProxyReq: (proxyReq, req, res) => {
-        proxyReq.setHeader('Host', 'publish.obsidian.md');
-    }
-}));
-
-
 app.get('/cards.json', (req, res) => {
     let limit = parseInt(req.query.limit, 10) || 10; // Default limit to 10
     let offset = parseInt(req.query.offset, 10) || 0; // Default offset to 0

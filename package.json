@@ -27,6 +27,7 @@
     "vue": "^3.2.13",
     "vue-chartjs": "^5.3.0",
     "vue-lazyload": "^3.0.0",
+    "vue-router": "^4.2.5",
     "vue3-lazy": "^1.0.0-alpha.1"
   },
   "devDependencies": {
