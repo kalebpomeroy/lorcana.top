@@ -9,11 +9,11 @@ const PORT = process.env.PORT || 3300;
 
 
 
+app.use(cors({ origin: '*' }));
+
 // Serve static files from the Vue app build directory
 app.use(express.static(path.join(__dirname, '../dist')));
-app.use(cors({
-    origin: '*'
-}));
++app.use(express.static(path.join(__dirname, '../articles')));
 
 app.use('/articles', createProxyMiddleware({
     target: 'https://publish.obsidian.md',
