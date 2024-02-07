@@ -79,6 +79,7 @@ function filter(q) {
     }).sort(dynamicSort(sort, sort_order));
 }
 
+
 const comparisons = {
     // Full text searches: Name, Body Text, Artist, Flavor Text, Keywords
     n: (card, value) => { return card.name.toLowerCase().includes(value) },

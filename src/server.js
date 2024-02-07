@@ -1,22 +1,19 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
-const morgan = require('morgan');
 const app = express();
 const { cards, filter } = require('./cards.js');
-const { createProxyMiddleware } = require('http-proxy-middleware'); 
 
 const PORT = process.env.PORT || 3300;
 
 
 
-// Serve static files from the Vue app build directory
-app.use(express.static(path.join(__dirname, '../dist')));
-app.use(express.static(path.join(__dirname, '../articles')));
-app.use(morgan('dev'));
 app.use(cors({
     origin: '*'
 }));
+// Serve static files from the Vue app build directory
+app.use(express.static(path.join(__dirname, '../dist')));
+app.use(express.static(path.join(__dirname, '../articles')));
 
 app.get('/cards.json', (req, res) => {
     let limit = parseInt(req.query.limit, 10) || 10; // Default limit to 10
