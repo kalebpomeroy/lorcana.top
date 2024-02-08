@@ -40,7 +40,7 @@ const SORT_ORDER = {
     "n": "name"
 }
 
-ASC = 'asc';
-DESC = 'desc';
+const ASC = 'asc';
+const DESC = 'desc';
 
 module.exports = { COLORS, CARD_TYPES, RARITY, SETS, SORT_ORDER, ASC, DESC };

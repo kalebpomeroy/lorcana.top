@@ -1,3 +1,4 @@
+import axios from 'axios';
 const { COLORS, CARD_TYPES, RARITY, ASC, DESC } = require('../const.js');
 const { dynamicSort, compareAsNumber, compareAsList } = require('../util.js');
 
@@ -13,10 +14,25 @@ function parseToken(token) {
     return ['n', ':', token.toLowerCase()];
 }
 
+let cached_cards = null;
+function get_cards_from_source() {
+    if(cached_cards) { return cached_cards; }
+    
+    (async () => {
+        try {
+            cached_cards = await axios.get('cards.json');
+        } catch (error) {
+            console.error('Failed to fetch data:', error);
+        }
+    })();
+    return cached_cards
+}
+
 function filter(q, cards) {
+    if (!cards) { cards = get_cards_from_source(); }
     if (!q) { return cards; }
     //Split q on spaces and return an array of tokens (respecting quoted strings)
-    tokens = q.match(/"[^"]*"|\S+/g).map(token => {
+    const tokens = q.match(/"[^"]*"|\S+/g).map(token => {
         // Remove quotes from tokens that are quoted
         return token.replace(/^"|"$/g, '');
     }) || [];

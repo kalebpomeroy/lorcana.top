@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import axios from 'axios';
 import SearchBar from '../components/SearchBar.vue';
 import PaginatorRow from '../components/PaginatorRow.vue';
 import ResultsGrid from '../components/ResultsGrid.vue';
+import filter from '../composables/cards.js';
 
 export default {
     components: {
@@ -38,28 +38,13 @@ export default {
         },
 
         async fetchCards(q, offset, limit) {
-            try {
-                this.setQueryParams(q, offset, limit);
-                this.q = q; 
-                this.offset = offset;
-                this.limit = limit;
-                this.loading = true;
-
-                const response = await axios.get('/cards', { 
-                    params: { 
-                        q: this.q.toLowerCase(),
-                        offset: this.offset, 
-                        limit: this.limit 
-                    } 
-                });
-                this.cards = response.data.cards;
-                this.total = response.data.total;
-                this.loading = false;
-            } catch (error) {
-                console.error(error);
-                this.loading = false;
-                // TODO: Handle API Errors
-            }
+            this.loading = true;
+            this.setQueryParams(q, offset, limit);
+            const filtered = filter(q || '');
+            this.cards = filtered.slice(offset, offset + limit);
+            this.total = filtered.length;
+            this.loading = false;
+            
         },
 
         setQueryParams(q, offset, limit) {
