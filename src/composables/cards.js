@@ -1,8 +1,5 @@
-const fs = require('fs');
-
-const { COLORS, CARD_TYPES, RARITY, ASC, DESC } = require('./const.js');
-const { dynamicSort, compareAsNumber, compareAsList } = require('./util.js');
-const cards = JSON.parse(fs.readFileSync('./data/cards.json', 'utf8'));
+const { COLORS, CARD_TYPES, RARITY, ASC, DESC } = require('../const.js');
+const { dynamicSort, compareAsNumber, compareAsList } = require('../util.js');
 
 function parseToken(token) {
     // Given a single token, split it based on the special characters (:, <, >, =)
@@ -16,13 +13,25 @@ function parseToken(token) {
     return ['n', ':', token.toLowerCase()];
 }
 
-function filter(q) {
+let cached_cards = null;
+async function get_cards_from_source() {
+    if (cached_cards) { return cached_cards; }
+
+    try {
+        const localdevHack = (window.location.hostname === 'localhost') ? 'http://localhost:3300/' : '/';
+        const response = await fetch(`${localdevHack}cards.json`);
+        cached_cards = await response.json();  // Assuming the response to be JSON
+    } catch (error) {
+        console.error('Failed to fetch data:', error);
+    }
+    return cached_cards;
+}
+
+async function filter(q, cards) {
+    if (!cards) { cards = await get_cards_from_source(); }
     if (!q) { return cards; }
     //Split q on spaces and return an array of tokens (respecting quoted strings)
-    tokens = q.match(/"[^"]*"|\S+/g).map(token => {
-        // Remove quotes from tokens that are quoted
-        return token.replace(/^"|"$/g, '');
-    }) || [];
+    const tokens = (q.match(/"[^"]*"|\S+/g) ?? []).map(token => token.replace(/^"|"$/g, ''));
 
     // Default sort to name ascending
     let sort = 'n';
@@ -102,7 +111,4 @@ const comparisons = {
     z: (card, value) => { return card.inkable == value },
 };
 
-module.exports = {
-    cards,
-    filter
-};
+module.exports = { filter };

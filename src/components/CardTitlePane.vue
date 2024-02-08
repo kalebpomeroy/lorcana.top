@@ -56,8 +56,8 @@ export default {
         showLargeImage(event, element) {
             this.showLarge = true;  
             this.position = {
-                x: element.getBoundingClientRect().left - 130 ,
-                y: Math.max(event.clientY, 80)
+                x: element.getBoundingClientRect().left - 255 ,
+                y: element.getBoundingClientRect().top
             }
         },
         hideLargeImage() {

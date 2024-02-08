@@ -1,11 +1,14 @@
 
 <template>
-    <div class="pagination-container">
+    <div v-if="loading || totalPages > 1" class="pagination-container">
         <button @click="previousPage" :disabled="offset === 0" class="btn">Previous</button>
 
         <div v-if="!loading" class="pagination-text">Page {{ currentPage }} of {{ totalPages }} ({{ this.total }} cards)</div>
         <div v-if="loading" class="pagination-text"> Loading...</div>
         <button @click="nextPage" :disabled="isLastPage" class="btn">Next</button>
+    </div>
+    <div v-if="!loading && totalPages === 1" class="pagination-container">
+        {{ this.total }} cards
     </div>
 </template>
 
