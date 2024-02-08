@@ -1,4 +1,3 @@
-import axios from 'axios';
 const { COLORS, CARD_TYPES, RARITY, ASC, DESC } = require('../const.js');
 const { dynamicSort, compareAsNumber, compareAsList } = require('../util.js');
 
@@ -15,27 +14,24 @@ function parseToken(token) {
 }
 
 let cached_cards = null;
-function get_cards_from_source() {
-    if(cached_cards) { return cached_cards; }
-    
-    (async () => {
-        try {
-            cached_cards = await axios.get('cards.json');
-        } catch (error) {
-            console.error('Failed to fetch data:', error);
-        }
-    })();
-    return cached_cards
+async function get_cards_from_source() {
+    if (cached_cards) { return cached_cards; }
+
+    try {
+        const localdevHack = (window.location.hostname === 'localhost') ? 'http://localhost:3300/' : '/';
+        const response = await fetch(`${localdevHack}cards.json`);
+        cached_cards = await response.json();  // Assuming the response to be JSON
+    } catch (error) {
+        console.error('Failed to fetch data:', error);
+    }
+    return cached_cards;
 }
 
-function filter(q, cards) {
-    if (!cards) { cards = get_cards_from_source(); }
+async function filter(q, cards) {
+    if (!cards) { cards = await get_cards_from_source(); }
     if (!q) { return cards; }
     //Split q on spaces and return an array of tokens (respecting quoted strings)
-    const tokens = q.match(/"[^"]*"|\S+/g).map(token => {
-        // Remove quotes from tokens that are quoted
-        return token.replace(/^"|"$/g, '');
-    }) || [];
+    const tokens = (q.match(/"[^"]*"|\S+/g) ?? []).map(token => token.replace(/^"|"$/g, ''));
 
     // Default sort to name ascending
     let sort = 'n';

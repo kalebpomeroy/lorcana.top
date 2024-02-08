@@ -27,6 +27,7 @@ import HelperWindow from './HelperWindow.vue'
 export default {
     data() {
         return {
+            q: '',
             showHelperText: false,
             showingDeck: false,
         };
