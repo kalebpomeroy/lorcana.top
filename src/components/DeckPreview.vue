@@ -92,7 +92,7 @@ export default {
             }
             this.loading = true;
             try {
-                const response = await axios.get('/cards.json', { 
+                const response = await axios.get('/cards', { 
                     params: { 
                         q: `"${Object.keys(this.decklist).join(', ')}"`,
                         offset: 0,

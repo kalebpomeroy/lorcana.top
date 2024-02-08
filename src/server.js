@@ -1,31 +1,28 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
+const fs = require('fs');
 const app = express();
-const { cards, filter } = require('./cards.js');
+const { filter } = require('./composables/cards.js');
 const { createProxyMiddleware } = require('http-proxy-middleware'); 
 
 const PORT = process.env.PORT || 3300;
-
-
+const cards = JSON.parse(fs.readFileSync('./data/cards.json', 'utf8'));
 
 app.use(cors({ origin: '*' }));
-
-// Serve static files from the Vue app build directory
 app.use(express.static(path.join(__dirname, '../dist')));
-+app.use(express.static(path.join(__dirname, '../articles')));
+app.use(express.static(path.join(__dirname, '../articles')));
 
-app.get('/cards.json', (req, res) => {
+app.get('/cards', (req, res) => {
     let limit = parseInt(req.query.limit, 10) || 10; // Default limit to 10
     let offset = parseInt(req.query.offset, 10) || 0; // Default offset to 0
 
-    filtered = filter(req.query.q || '');
-    // Apply limit and offset to jsonData
+    filtered = filter(req.query.q || '', cards);
     const paginatedData = filtered.slice(offset, offset + limit);
     res.json({cards: paginatedData, total: filtered.length});
 });
 
-app.get('/cards', (req, res) => {
+app.get('/cards.json', (req, res) => {
     res.sendFile(path.join(__dirname, '../data/cards.json'));
 });
 

@@ -1,8 +1,5 @@
-const fs = require('fs');
-
-const { COLORS, CARD_TYPES, RARITY, ASC, DESC } = require('./const.js');
-const { dynamicSort, compareAsNumber, compareAsList } = require('./util.js');
-const cards = JSON.parse(fs.readFileSync('./data/cards.json', 'utf8'));
+const { COLORS, CARD_TYPES, RARITY, ASC, DESC } = require('../const.js');
+const { dynamicSort, compareAsNumber, compareAsList } = require('../util.js');
 
 function parseToken(token) {
     // Given a single token, split it based on the special characters (:, <, >, =)
@@ -16,7 +13,7 @@ function parseToken(token) {
     return ['n', ':', token.toLowerCase()];
 }
 
-function filter(q) {
+function filter(q, cards) {
     if (!q) { return cards; }
     //Split q on spaces and return an array of tokens (respecting quoted strings)
     tokens = q.match(/"[^"]*"|\S+/g).map(token => {
@@ -102,7 +99,4 @@ const comparisons = {
     z: (card, value) => { return card.inkable == value },
 };
 
-module.exports = {
-    cards,
-    filter
-};
+module.exports = { filter };

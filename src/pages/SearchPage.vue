@@ -45,7 +45,7 @@ export default {
                 this.limit = limit;
                 this.loading = true;
 
-                const response = await axios.get('/cards.json', { 
+                const response = await axios.get('/cards', { 
                     params: { 
                         q: this.q.toLowerCase(),
                         offset: this.offset, 
