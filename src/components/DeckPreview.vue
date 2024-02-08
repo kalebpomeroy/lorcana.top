@@ -21,7 +21,7 @@
 <script>
 import CardTitlePane from './CardTitlePane.vue';
 import { getDeckList } from '../composables/list.js';
-import axios from 'axios';
+import { filter } from '../composables/cards.js';
 export default {
     setup() {
         const { decklist, clearDeck } = getDeckList();
@@ -91,22 +91,9 @@ export default {
                 return;
             }
             this.loading = true;
-            try {
-                const response = await axios.get('/cards', { 
-                    params: { 
-                        q: `"${Object.keys(this.decklist).join(', ')}"`,
-                        offset: 0,
-                        limit: this.decklist.length || 10000
-                    } 
-                });
-                this.cards = response.data.cards;
-                this.total = response.data.total;
-            } catch (error) {
-                console.error(error);
-                // TODO: Handle API Errors
-            } finally {
-                this.loading = false;
-            }
+            this.cards = await filter(`"${Object.keys(this.decklist).join(', ')}"`);
+            this.total = this.cards.length;
+            this.loading = false;
         },
     }
 }

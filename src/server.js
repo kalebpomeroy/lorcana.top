@@ -13,11 +13,11 @@ app.use(cors({ origin: '*' }));
 app.use(express.static(path.join(__dirname, '../dist')));
 app.use(express.static(path.join(__dirname, '../articles')));
 
-app.get('/cards', (req, res) => {
+app.get('/cards', async (req, res) => {
     let limit = parseInt(req.query.limit, 10) || 10; // Default limit to 10
     let offset = parseInt(req.query.offset, 10) || 0; // Default offset to 0
 
-    filtered = filter(req.query.q || '', cards);
+    filtered = await filter(req.query.q || '', cards);
     const paginatedData = filtered.slice(offset, offset + limit);
     res.json({cards: paginatedData, total: filtered.length});
 });
